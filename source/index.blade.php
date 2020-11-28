@@ -1,37 +1,50 @@
 @extends('_layouts.master')
 
 @section('body')
-    @foreach ($posts->where('featured', true) as $featuredPost)
-        <div class="w-full mb-6">
-            @if ($featuredPost->cover_image)
-                <img src="{{ $featuredPost->cover_image }}" alt="{{ $featuredPost->title }} cover image" class="mb-6">
-            @endif
+    <h1>Food and Desserts by Mandi Lee</h1>
+    <p>Welcome to the official home of Grace and Butter. Learn more <a href="/about">about me</a> or check out some of my <a href="/food">food</a>, <a href="/events">events</a>, and <a href="/experiences">experiences</a>!</p>
+    <hr>
+    <h2>Food</h2>
+    @foreach ($food->where('featured', true)->take(6)->chunk(2) as $row)
+        <div class="flex flex-col md:flex-row md:-mx-6">
+            @foreach ($row as $post)
+                <div class="w-full md:w-1/2 md:mx-6">
+                    @include('_components.post-preview-inline')
+                </div>
 
-            <p class="text-gray-700 font-medium my-2">
-                {{ $featuredPost->getDate()->format('F j, Y') }}
-            </p>
-
-            <h2 class="text-3xl mt-0">
-                <a href="{{ $featuredPost->getUrl() }}" title="Read {{ $featuredPost->title }}" class="text-gray-900 font-extrabold">
-                    {{ $featuredPost->title }}
-                </a>
-            </h2>
-
-            <p class="mt-0 mb-4">{!! $featuredPost->getExcerpt() !!}</p>
-
-            <a href="{{ $featuredPost->getUrl() }}" title="Read - {{ $featuredPost->title }}" class="uppercase tracking-wide mb-4">
-                Read
-            </a>
+                @if (! $loop->last)
+                    <hr class="block md:hidden w-full border-b mt-2 mb-6">
+                @endif
+            @endforeach
         </div>
 
         @if (! $loop->last)
-            <hr class="border-b my-6">
+            <hr class="w-full border-b mt-2 mb-6">
         @endif
     @endforeach
 
-    @include('_components.newsletter-signup')
+    {{-- @include('_components.newsletter-signup') --}}
+    <h2>Events</h2>
+    @foreach ($events->where('featured', true)->take(6)->chunk(2) as $row)
+        <div class="flex flex-col md:flex-row md:-mx-6">
+            @foreach ($row as $post)
+                <div class="w-full md:w-1/2 md:mx-6">
+                    @include('_components.post-preview-inline')
+                </div>
 
-    @foreach ($posts->where('featured', false)->take(6)->chunk(2) as $row)
+                @if (! $loop->last)
+                    <hr class="block md:hidden w-full border-b mt-2 mb-6">
+                @endif
+            @endforeach
+        </div>
+
+        @if (! $loop->last)
+            <hr class="w-full border-b mt-2 mb-6">
+        @endif
+    @endforeach
+
+    <h2>Experiences</h2>
+    @foreach ($experiences->where('featured', true)->take(6)->chunk(2) as $row)
         <div class="flex flex-col md:flex-row md:-mx-6">
             @foreach ($row as $post)
                 <div class="w-full md:w-1/2 md:mx-6">

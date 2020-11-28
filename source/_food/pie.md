@@ -5,6 +5,7 @@ title: Pie
 date: 2020-11-27
 description: To-die-for pies brought to you by Mandi Lee
 cover_image: /assets/img/post-cover-image-2.png
+featured: true
 ---
 
 Pie page. Add photos and content.

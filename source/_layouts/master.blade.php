@@ -27,7 +27,7 @@
 
     <body class="flex flex-col justify-between min-h-screen text-gray-800 leading-normal font-sans">
         <header class="flex items-center py-4" role="banner">
-            <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
+            <div class="container flex items-center mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
                         
@@ -35,7 +35,7 @@
                             @include('_nav.site-logo-svg')
                         </div>
 
-                        <h1 class="sr-only">{{ $page->siteName }}</h1>
+                        <span class="sr-only">{{ $page->siteName }}</span>
                     </a>
                 </div>
 
@@ -51,9 +51,12 @@
 
         @include('_nav.menu-responsive')
 
-        <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
+        <main role="main" class="flex-auto w-full container mx-auto py-16 px-6">
             @yield('body')
         </main>
+        @if ($page->getPath() != '/contact')
+            @include('_layouts.cta')
+        @endif
 
         <footer class="text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none">
@@ -62,7 +65,7 @@
                 </li>
 
                 <li>
-                    Built by <a href="jamescourtois.surge.sh">James Courtois</a> with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
+                    Built by <a target="_blank" href="https://jamescourtois.surge.sh">James Courtois</a> with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
                     and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
                 </li>
             </ul>
