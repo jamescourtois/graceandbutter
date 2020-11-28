@@ -8,10 +8,28 @@ description: Get in touch with us
 <h1>Contact</h1>
 
 <p class="mb-8">
-    Static sites are unable to handle form submissions. However, there are third-party services, like Tighten’s <a href="https://fieldgoal.io" title="FieldGoal">FieldGoal</a>, which can accept the form submission, email you the result, and redirect back to a thank you page.
+    It's easy to get in touch with me. Just fill out this form and tell me what food, experience, or event you would be interested in! I will read your message and email you back as soon as I can.
 </p>
 
-<form action="/contact" class="mb-12">
+<script>
+    function onloadCallback() {
+        /* Place your recaptcha rendering code here */
+        var form = document.getElementById('gabform');
+
+        form.addEventListener("submit", function (event) {
+            if (grecaptcha.getResponse() === '') {
+                event.preventDefault();
+                alert('Please check the recaptcha box and try submitting again.');
+            }
+        }, false);
+    }
+</script>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback"></script>
+
+<form id="gabform" action="https://www.form-data.com/_functions/submit/epzdlvt41h7pg9e2ljhgn" method="post" >
+    
+
     <div class="flex flex-wrap mb-6 -mx-3">
         <div class="w-full md:w-1/2 mb-6 md:mb-0 px-3">
             <label class="block mb-2 text-gray-800 text-sm font-semibold" for="contact-name">
@@ -59,11 +77,14 @@ description: Get in touch with us
         ></textarea>
     </div>
 
-    <div class="flex justify-end w-full">
+    <div class="g-recaptcha mb-6"
+       data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
+
+    <div class="flex justify-start w-full">
         <input
             type="submit"
             value="Submit"
-            class="block bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold leading-snug tracking-wide uppercase shadow rounded-lg cursor-pointer px-6 py-3"
+            class="btn"
         >
     </div>
 </form>
