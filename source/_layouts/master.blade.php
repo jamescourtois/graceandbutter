@@ -20,12 +20,10 @@
         @if ($page->production)
             <!-- Insert analytics code here -->
         @endif
-
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen text-gray-800 leading-normal font-sans">
+    <body class="flex flex-col justify-between min-h-screen">
         <header class="flex items-center py-4" role="banner">
             <div class="container flex items-center mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
@@ -58,7 +56,7 @@
             @include('_layouts.cta')
         @endif
 
-        <footer class="text-center text-sm mt-12 py-4" role="contentinfo">
+        <footer class="text-center text-sm my-8 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none">
                 <li class="md:mr-2">
                     &copy; <a href="https://graceandbutter.com" title="Mandi Lee's website">Mandi Lee</a> {{ date('Y') }}.

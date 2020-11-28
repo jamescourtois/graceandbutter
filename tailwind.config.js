@@ -32,6 +32,8 @@ module.exports = {
         'red' : '#AB2023',
         'dark-red' : '#470000',
         'teal' : '#75CCCF',
+        'dark-teal' : '#336a6c',
+        'light-teal' : '#B5ECEE',
       },
       lineHeight: {
         normal: '1.6',

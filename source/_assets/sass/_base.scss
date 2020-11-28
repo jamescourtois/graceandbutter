@@ -1,12 +1,10 @@
 body {
-    font-size: 17px;
-    background-color: #75CCCF;
+    @apply font-sans leading-normal text-dark-red bg-light-teal;
+    font-size: 16px;
 }
 
 a {
-    @apply .font-semibold;
-    @apply .no-underline;
-    @apply .text-blue-600;
+    @apply .font-semibold no-underline text-dark-teal;
 
     &:hover {
         @apply text-blue-800 underline;
@@ -100,10 +98,7 @@ h6,
 }
 
 hr {
-    @apply .border-b;
-    @apply .border-blue-400;
-    @apply .my-12;
-    @apply .rounded-full;
+    @apply border-t-0 border-b border-white opacity-50 my-12 rounded-full;
 }
 
 li {
