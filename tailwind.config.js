@@ -19,11 +19,19 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          'Nunito Sans'
+          'Quicksand'
+        ],
+        serif: [
+          'Gentium Basic'
         ],
         mono: [
           'monospace',
         ],
+      },
+      colors:{
+        'red' : '#AB2023',
+        'dark-red' : '#470000',
+        'teal' : '#75CCCF',
       },
       lineHeight: {
         normal: '1.6',
