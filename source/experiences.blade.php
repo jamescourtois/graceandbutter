@@ -2,7 +2,7 @@
 title: Experiences
 description: Experiences by Mandi Lee
 pagination:
-    collection: posts
+    collection: experiences
     perPage: 4
 ---
 @extends('_layouts.master')

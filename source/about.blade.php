@@ -17,5 +17,5 @@ description: A little bit about the site
 
         <p class="mb-6">I want to help you plan your engagement. I want to pack a picnic for you. I want to provide a dessert bar for your wedding. I want to make your family a lasagna. I want to teach you how to make scones. The possibilities are endless and we can navigate Covid-19 restrictions together.</p>
 
-        <p class="mb-6">Shoot me a message here(link to contact form). Let's chat!</p>
+        <a href="/contact" target="_self" class="btn mb-6">Shoot me a message</a>
 @endsection

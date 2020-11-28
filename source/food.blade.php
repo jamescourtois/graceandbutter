@@ -2,7 +2,7 @@
 title: Food
 description: Food by Mandi Lee
 pagination:
-    collection: posts
+    collection: food
     perPage: 4
 ---
 @extends('_layouts.master')
