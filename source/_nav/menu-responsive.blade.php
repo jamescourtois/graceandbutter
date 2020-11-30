@@ -22,25 +22,5 @@
             </a>
         </li>
         
-       <li class="pl-4">
-            <a title="{{ $page->siteName }} Blog" href="/blog"
-            class="{{ $page->isActive('/blog') ? 'active text-blue-600' : '' }}">
-            Blog
-            </a>
-        </li>
-    
-       <li class="pl-4">
-            <a title="{{ $page->siteName }} About" href="/about"
-            class="{{ $page->isActive('/about') ? 'active text-blue-600' : '' }}">
-            About
-            </a>
-        </li>
-    
-       <li class="pl-4">
-            <a title="{{ $page->siteName }} Contact" href="/contact"
-            class="{{ $page->isActive('/contact') ? 'active text-blue-600' : '' }}">
-            Contact
-            </a>
-        </li>
     </ul>
 </nav>

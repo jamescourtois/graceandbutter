@@ -3,7 +3,7 @@ title: Events
 description: Events by Mandi Lee
 pagination:
     collection: events
-    perPage: 4
+    perPage: 99
 ---
 @extends('_layouts.master')
 
