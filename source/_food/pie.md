@@ -8,4 +8,4 @@ cover_image: /assets/img/post-cover-image-2.png
 featured: true
 ---
 
-Pie page. Add photos and content.
+Choose from Drop down menu for current pie selections: Drop down: Cherry Pie, Apple Pie, Apfelkuchen, Cheesecake

@@ -24,6 +24,12 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen">
+        <div class="hello-bar bg-dark-teal text-white py-4">
+            <div class="container mx-auto text-center flex flex-col items-center justify-center">
+                <span class="block mb-4">Grace and Butter Pie Pop Up! December 12 and December 19 @ Sweet Things Sweet Shop in St. Genevieve!</span>
+                <a class="btn" href="https://stegencandy.square.site">Details and Ordering Here</a>
+            </div>
+        </div>
         <header class="flex items-center py-4" role="banner">
             <div class="container flex items-center mx-auto px-4 lg:px-8">
                 <div class="flex items-center">

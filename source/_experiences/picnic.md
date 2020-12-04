@@ -8,4 +8,4 @@ cover_image: /assets/img/post-cover-image-2.png
 featured: true
 ---
 
-This is the picnics page. Pack it with content and photos.
+This is a great covid friendly option for date nights, family hikes, park hangouts, or a special occasion. 

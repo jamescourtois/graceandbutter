@@ -8,4 +8,4 @@ cover_image: /assets/img/post-cover-image-2.png
 featured: true
 ---
 
-This is the cooking and baking classes page. Fill it with content and photos.
+When the CDC guidelines indicate it's safe to gather, we are going to have so much fun. Stay Tuned!

@@ -152,6 +152,13 @@ pre {
     @apply .text-white;
 }
 
-.btn {
-    @apply inline-flex items-center justify-center p-4 bg-white
+.btn,
+a.btn,
+input[type=submit] {
+    @apply inline-flex items-center justify-center p-4 bg-white text-dark-teal cursor-pointer font-bold;
+    transition: 300ms ease;
+
+    &:hover {
+        @apply no-underline bg-teal text-white;
+    }
 }

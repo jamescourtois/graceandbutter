@@ -8,4 +8,4 @@ cover_image: /assets/img/post-cover-image-1.png
 categories: [food]
 ---
 
-This is the lasagna page. Add photos and content.
+This is THE lasagna. I've been making it for years. It comes frozen, ready-to-bake. Feeds four approximately. 

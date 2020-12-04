@@ -8,4 +8,4 @@ cover_image: /assets/img/post-cover-image-2.png
 featured: true
 ---
 
-This is the dinner page. Add photos and content.
+Dinner prepared and served in your home or on location.

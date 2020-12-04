@@ -9,4 +9,4 @@ featured: false
 categories: [food]
 ---
 
-This is the box lunch page. Add photos and content.
+Box Lunch options for 2-100 coming soon!

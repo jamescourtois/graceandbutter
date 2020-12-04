@@ -8,4 +8,4 @@ cover_image: /assets/img/post-cover-image-2.png
 featured: true
 ---
 
-This is the dessert bar page. Add photos and content.
+Perfect alternative to traditional wedding cake. You can have something for everyone with a dessert bar at your next party. 
