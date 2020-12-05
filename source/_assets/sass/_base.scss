@@ -162,3 +162,14 @@ input[type=submit] {
         @apply no-underline bg-teal text-white;
     }
 }
+
+.bg-img,
+.bg-img > img {
+    @apply absolute w-full h-full left-0 right-0 top-0 bottom-0 block z-0;
+    object-fit: cover;
+    object-position: center;
+
+    &.bottom > img{
+        object-position: center bottom;
+    }
+}

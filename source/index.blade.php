@@ -1,6 +1,31 @@
 @extends('_layouts.master')
 
 @section('body')
+    <div class="relative bg-dark-teal mb-8 text-white py-8">
+        <div class="container relative z-10 mx-auto text-center flex flex-col items-center justify-center">
+            <h2 class="text-white">Grace and Butter Pie Pop Up!</h2>
+            <span class="block mb-4">December 12 and December 19 @ Sweet Things Sweet Shop in St. Genevieve!</span>
+            <a class="btn" target="_blank" href="https://stegencandy.square.site">Details and Ordering Here</a>
+        </div>
+        <div class="bg-img opacity-50 bottom">
+            <img class="" src="/assets/img/pie.jpg" alt="Christmas Cookies">
+        </div>
+    </div>
+    <div class="container relative bg-red text-white py-8 mx-auto text-center flex flex-col items-center justify-center">
+        <div class="relative z-10">
+            <h2 class="text-white mb-0">Christmas Cookie Box!</h2>
+            <ul class="text-left ">
+                <li>Three (3) Chocolate Krinkle</li>
+                <li>Three (3) Gingerbread People</li>
+                <li>Three (3) Oma's Butter Cookie</li>
+                <li>Three (3) Raspberry Almond Thumbprints</li>
+            </ul>
+            <a class="btn" href="/cookie-order">Order Cookie Box</a>
+        </div>
+        <div class="bg-img opacity-25">
+            <img class="opacity-50" src="/assets/img/cookies.jpg" alt="Christmas Cookies">
+        </div>
+    </div>
     <h1>Food and Desserts by Mandi Lee</h1>
 
     <img src="/assets/img/about.png"
