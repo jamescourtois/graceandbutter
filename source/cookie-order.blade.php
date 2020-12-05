@@ -5,7 +5,14 @@ description: 12 holiday treats brought to you by Mandi Lee
 @extends('_layouts.master')
 
 @section('body')
-<h1>Order Christmas Cookies</h1>
+<div class="relative bg-red p-8">
+    <div class="relative z-10">
+        <h1 class="text-white mb-0 ">Order Christmas Cookies</h1>
+    </div>
+    <div class="bg-img opacity-25">
+        <img class="opacity-50" src="/assets/img/cookies.jpg" alt="Cookies">
+    </div>
+</div>
 
 <div class="flex flex-wrap md:flex-no-wrap">
     <div class="md:pr-16">

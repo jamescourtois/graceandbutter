@@ -64,7 +64,10 @@ h6,
 h1,
 .h1 {
     @apply .font-extrabold;
-    @apply .text-5xl;
+    @apply .text-3xl;
+    @screen md {
+        @apply text-5xl;
+    }
 }
 
 h2,
