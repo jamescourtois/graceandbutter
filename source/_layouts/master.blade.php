@@ -49,13 +49,13 @@
 
         @include('_nav.menu-responsive')
 
-        <main role="main" class="flex-auto w-full container mx-auto py-16 px-6">
+        <main role="main" class="flex-auto">
             @yield('body')
         </main>
         @if ($page->getPath() != '/contact' 
             && $page->getPath() != '/cookie-order'
             && $page->getPath() != '/thank-you')
-            @include('_layouts.cta')
+            @include('_layouts.form')
         @endif
 
         <footer class="text-center text-sm my-8 py-4" role="contentinfo">
