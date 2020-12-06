@@ -52,7 +52,9 @@
         <main role="main" class="flex-auto w-full container mx-auto py-16 px-6">
             @yield('body')
         </main>
-        @if ($page->getPath() != '/contact' && $page->getPath() != '/cookie-order')
+        @if ($page->getPath() != '/contact' 
+            && $page->getPath() != '/cookie-order'
+            && $page->getPath() != '/thank-you')
             @include('_layouts.cta')
         @endif
 

@@ -11,7 +11,7 @@
             <img class="" src="/assets/img/pie.jpg" alt="Christmas Cookies">
         </div>
     </div>
-    <div class="container relative bg-red text-white py-8 mx-auto text-center flex flex-col items-center justify-center">
+    <div class="container relative bg-red text-white py-8 mb-24 mx-auto text-center flex flex-col items-center justify-center">
         <div class="relative z-10">
             <h2 class="text-white mb-0">Christmas Cookie Box!</h2>
             <ul class="text-left ">
@@ -40,16 +40,23 @@
 
         <a href="#gabform" target="_self" class="btn mb-6">Shoot me a message</a>
     <hr>
-    <h2>Food headline</h2>
-    <p>Short descripion about food</p>
-    <a href="/food" class="btn">See All Food</a>
-
-    {{-- @include('_components.newsletter-signup') --}}
-    <h2>Events headline</h2>
-    <p>Short descripion about events</p>
-    <a href="/food" class="btn">See All Events</a>
-
-    <h2>Experiences headline</h2>
-    <p>Short descripion about experiencers</p>
-    <a href="/food" class="btn">See All Experiences</a>
+    <div class="flex flex-wrap">
+        <div class="lg:w-1/3 flex flex-col items-center justify-center text-center p-8 px-16">
+            <h2>Food!</h2>
+            <p>I am passionate about all types of food whether it's sweet or savory.</p>
+            <a href="/food" class="btn">Check out my menu</a>
+        </div>
+    
+        <div class="lg:w-1/3 flex flex-col items-center justify-center text-center p-8 px-16">
+            <h2>Events!</h2>
+            <p>Enjoy your own event while I plan and cater for you</p>
+            <a href="/events" class="btn">Check out events</a>
+        </div>
+    
+        <div class="lg:w-1/3 flex flex-col items-center justify-center text-center p-8 px-16">
+            <h2>Experiences!</h2>
+            <p>Break out of your routine with a fun class or picnic</p>
+            <a href="/experiences" class="btn">Check out experiences</a>
+        </div>
+    </div>
 @stop

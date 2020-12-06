@@ -15,12 +15,15 @@
 
 <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback"></script>
 
+<h2 class="text-white">Get in touch!</h2>
+<p>Fill out this form and let me know what food, events, or experiences you are interested in! I will get back to you ASAP.</p>
+
 <form id="gabform" action="https://www.form-data.com/_functions/submit/epzdlvt41h7pg9e2ljhgn" method="post" >
     
 
     <div class="flex flex-wrap mb-6 -mx-3">
         <div class="w-full md:w-1/2 mb-6 md:mb-0 px-3">
-            <label class="block mb-2 text-gray-800 text-sm font-semibold" for="contact-name">
+            <label class="block mb-2 text-sm font-semibold" for="contact-name">
                 Name
             </label>
 
@@ -35,7 +38,7 @@
         </div>
 
         <div class="w-full px-3 md:w-1/2">
-            <label class="block text-gray-800 text-sm font-semibold mb-2" for="contact-email">
+            <label class="block text-sm font-semibold mb-2" for="contact-email">
                 Email Address
             </label>
 
@@ -51,7 +54,7 @@
     </div>
 
     <div class="w-full mb-12">
-        <label class="block text-gray-800 text-sm font-semibold mb-2" for="contact-message">
+        <label class="block text-sm font-semibold mb-2" for="contact-message">
             Message
         </label>
 
