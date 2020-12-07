@@ -7,14 +7,7 @@
             Food
             </a>
         </li>
-    
-       <li class="pl-4 mb-4">
-            <a title="{{ $page->siteName }} Blog" href="/events"
-            class="p-8 text-xl {{ $page->isActive('/events') ? 'active underline' : '' }}">
-            Events
-            </a>
-        </li>
-    
+
        <li class="pl-4 mb-4">
             <a title="{{ $page->siteName }} Blog" href="/experiences"
             class="p-8 text-xl {{ $page->isActive('/experiences') ? 'active underline' : '' }}">

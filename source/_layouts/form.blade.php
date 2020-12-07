@@ -18,7 +18,7 @@
     <div class="container mx-auto px-4">
         
         <h2 class="text-white">Get in touch!</h2>
-        <p>Fill out this form and let me know what food, events, or experiences you are interested in! I will get back to you ASAP.</p>
+        <p>Fill out this form and let me know what food or experiences you are interested in! I will get back to you ASAP.</p>
         
         <form id="gabform" action="https://www.form-data.com/_functions/submit/epzdlvt41h7pg9e2ljhgn" method="post" >
             
@@ -32,7 +32,7 @@
                     <input
                         type="text"
                         id="contact-name"
-                        placeholder="Jane Doe"
+                        placeholder="Enter your name"
                         name="name"
                         class="block w-full border shadow rounded-lg outline-none mb-2 px-4 py-3"
                         required
@@ -47,7 +47,7 @@
                     <input
                         type="email"
                         id="contact-email"
-                        placeholder="email@domain.com"
+                        placeholder="Enter your email"
                         name="email"
                         class="block w-full border shadow rounded-lg outline-none mb-2 px-4 py-3"
                         required
@@ -65,7 +65,7 @@
                     rows="4"
                     name="message"
                     class="block w-full border shadow rounded-lg outline-none appearance-none mb-2 px-4 py-3"
-                    placeholder="A lovely message here."
+                    placeholder="What food or experiences are you interested in?"
                     required
                 ></textarea>
             </div>

@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <div class="container mx-auto flex flex-col lg:flex-wrap items-center lg:items-start">
+    <div class="container mx-auto flex flex-col lg:flex-wrap items-center lg:items-start px-4 pb-24">
         <h1>Food and Desserts by Mandi Lee</h1>
 
         <p class="mb-6">Everyone had a birthday in the year of 2020. Some got creative and celebrated in safe ways, some skipped the hoopla all together, some were forced to be alone, some had to cancel plans and trips that have been in place for years. But everyone had a birthday. A reason to celebrate. A day you are here, when so many are not. All moments we are present, with the ones we love, deserve to be celebrated. Birthdays, Anniversaries, and Tuesday nights.</p>
@@ -43,22 +43,16 @@
     </div>
     
     <div class="bg-teal py-16">
-        <div class="container mx-auto flex flex-wrap">
-            <div class="lg:w-1/3 flex flex-col items-center justify-center text-center p-8 px-16">
+        <div class="container mx-auto flex flex-wrap items-center justify-center">
+            <div class="lg:w-1/2 flex flex-col items-center justify-center text-center p-8 px-16">
                 <h2 class="text-dark-teal mb-0">Food!</h2>
-                <p>I am passionate about all types of food whether it's sweet or savory.</p>
+                <p>I am passionate about all food, sweet or savory. Choose from my menu or make a special request and I'll do the rest!</p>
                 <a href="/food" class="btn">Check out my menu</a>
             </div>
         
-            <div class="lg:w-1/3 flex flex-col items-center justify-center text-center p-8 px-16">
-                <h2 class="text-dark-teal mb-0">Events!</h2>
-                <p>Enjoy your own event while I plan and cater for you</p>
-                <a href="/events" class="btn">Check out events</a>
-            </div>
-        
-            <div class="lg:w-1/3 flex flex-col items-center justify-center text-center p-8 px-16">
+            <div class="lg:w-1/2 flex flex-col items-center justify-center text-center p-8 px-16">
                 <h2 class="text-dark-teal mb-0">Experiences!</h2>
-                <p>Break out of your routine with a fun class or picnic</p>
+                <p>Break out of your routine with a fun event, class or picnic. I will plan and cater an experience you can cherish for a lifetime.</p>
                 <a href="/experiences" class="btn">Check out experiences</a>
             </div>
         </div>

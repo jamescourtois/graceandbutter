@@ -42,12 +42,12 @@
 
                     @include('_nav.menu')
 
-                    @include('_nav.menu-toggle')
+                    {{-- @include('_nav.menu-toggle') --}}
                 </div>
             </div>
         </header>
 
-        @include('_nav.menu-responsive')
+        {{-- @include('_nav.menu-responsive') --}}
 
         <main role="main" class="flex-auto">
             @yield('body')

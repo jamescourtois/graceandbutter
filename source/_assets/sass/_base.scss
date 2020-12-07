@@ -64,7 +64,7 @@ h6,
 h1,
 .h1 {
     @apply .font-extrabold;
-    @apply .text-3xl;
+    @apply .text-4xl;
     @screen md {
         @apply text-5xl;
     }
@@ -73,13 +73,19 @@ h1,
 h2,
 .h2 {
     @apply .font-bold;
-    @apply .text-4xl;
+    @apply .text-3xl;
+    @screen md {
+        @apply text-3xl;
+    }
 }
 
 h3,
 .h3 {
     @apply .font-bold;
-    @apply .text-3xl;
+    @apply .text-2xl;
+    @screen md {
+        @apply text-3xl;
+    }
 }
 
 h4,
@@ -126,10 +132,10 @@ ul {
 }
 
 p {
-    @apply .my-3;
+    @apply .my-2;
 
     @screen md {
-        @apply .my-6;
+        @apply .my-3;
     }
 }
 

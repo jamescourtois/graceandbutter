@@ -10,7 +10,7 @@ pagination:
 @section('body')
     <div class="container mx-auto px-4">
         <h1>Food</h1>
-    
+        <p>It's simple. You tell me what you're craving and I make it. Delivery and pick-up can be arranged per order. Just fill out the contact form at the bottom of this page and let me know what I can do for you!</p>
         <hr class="border-b my-6">
     
         <div class="flex flex-wrap">

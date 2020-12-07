@@ -10,7 +10,7 @@ pagination:
 @section('body')
     <div class="container mx-auto px-4">
         <h1>Experiences</h1>
-    
+        <p>Food is best enjoyed with others. Right now that can be a tricky with COVID-19 safety measures. Let's work together to create a safe and fun food experience. Just fill out the form at the bottom of this page and let me know what I can do for you!</p>
         <hr class="border-b my-6">
     
         <div class="flex flex-wrap">
