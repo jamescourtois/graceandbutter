@@ -50,7 +50,7 @@
 
         {{-- @include('_nav.menu-responsive') --}}
 
-        <main role="main" class="flex-auto pt-40 md:pt-48">
+        <main role="main" class="flex-auto pt-40">
             @yield('body')
         </main>
         @if ($page->getPath() != '/contact' 
@@ -66,7 +66,7 @@
                 </li>
 
                 <li>
-                    Built by <a target="_blank" href="https://jamescourtois.surge.sh">James Courtois</a> with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
+                    Built by <a target="_blank" title="I developed this website" href="https://jamescourtois.surge.sh">James Courtois</a> with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
                     and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
                 </li>
             </ul>

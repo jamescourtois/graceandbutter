@@ -11927,6 +11927,10 @@ input[type=submit]:hover {
   max-width: 33.333%;
 }
 
+.max-w-40{
+  max-width: 40%;
+}
+
 .max-w-50{
   max-width: 50%;
 }
@@ -32364,6 +32368,10 @@ input[type=submit]:hover {
     max-width: 33.333%;
   }
 
+  .sm\:max-w-40{
+    max-width: 40%;
+  }
+
   .sm\:max-w-50{
     max-width: 50%;
   }
@@ -52726,6 +52734,10 @@ input[type=submit]:hover {
 
   .md\:max-w-33{
     max-width: 33.333%;
+  }
+
+  .md\:max-w-40{
+    max-width: 40%;
   }
 
   .md\:max-w-50{
@@ -73092,6 +73104,10 @@ input[type=submit]:hover {
     max-width: 33.333%;
   }
 
+  .lg\:max-w-40{
+    max-width: 40%;
+  }
+
   .lg\:max-w-50{
     max-width: 50%;
   }
@@ -93454,6 +93470,10 @@ input[type=submit]:hover {
 
   .xl\:max-w-33{
     max-width: 33.333%;
+  }
+
+  .xl\:max-w-40{
+    max-width: 40%;
   }
 
   .xl\:max-w-50{

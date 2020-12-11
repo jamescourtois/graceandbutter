@@ -110,14 +110,14 @@ description: 12 holiday treats brought to you by Mandi Lee
                         Where should I deliver or ship to?
                     </label>
             
-                        <input
-                        type="text"
-                        id="delivery"
-                        placeholder="Enter business, public place or address"
-                        name="delivery"
-                        class="block w-full border shadow rounded-lg outline-none mb-2 px-4 py-3"
-                        required
-                    >
+                    <textarea
+                    id="delivery-details"
+                    rows="4"
+                    name="delivery-details"
+                    class="block w-full border shadow rounded-lg outline-none appearance-none mb-2 px-4 py-3"
+                    placeholder="Enter one or more addresses"
+                    required
+                ></textarea>
                 </div>
                 
             </div>
