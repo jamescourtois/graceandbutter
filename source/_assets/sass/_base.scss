@@ -1,5 +1,5 @@
 body {
-    @apply font-sans leading-normal text-dark-red bg-light-teal;
+    @apply font-sans leading-normal text-gray-800 bg-light-teal;
     font-size: 16px;
 }
 
@@ -54,17 +54,13 @@ h5,
 .h5,
 h6,
 .h6 {
-    @apply leading-tight mb-4 mt-8 font-serif font-bold text-red;
-
-    &:first-child {
-        @apply .mt-0;
-    }
+    @apply leading-tight mb-4 font-serif font-bold;
 }
 
 h1,
 .h1 {
     @apply .font-extrabold;
-    @apply .text-4xl;
+    @apply .text-3xl;
     @screen md {
         @apply text-5xl;
     }
@@ -120,7 +116,7 @@ li {
 
 ol,
 ul {
-    @apply .my-4;
+    @apply .mb-6;
 }
 
 ol {
@@ -132,11 +128,7 @@ ul {
 }
 
 p {
-    @apply .my-2;
-
-    @screen md {
-        @apply .my-3;
-    }
+    @apply .mb-4;
 }
 
 pre {
@@ -180,5 +172,6 @@ input[type=submit] {
 
     &.bottom > img{
         object-position: center bottom;
+        width: 100%;
     }
 }

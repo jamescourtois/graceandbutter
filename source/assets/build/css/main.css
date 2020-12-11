@@ -726,8 +726,8 @@ body {
   font-family: Quicksand;
   line-height: 1.6;
   --text-opacity: 1;
-  color: #470000;
-  color: rgba(71, 0, 0, var(--text-opacity));
+  color: #2d3748;
+  color: rgba(45, 55, 72, var(--text-opacity));
   --bg-opacity: 1;
   background-color: #B5ECEE;
   background-color: rgba(181, 236, 238, var(--bg-opacity));
@@ -803,33 +803,14 @@ h6,
 .h6 {
   line-height: 1.25;
   margin-bottom: 1rem;
-  margin-top: 2rem;
   font-family: Gentium Basic;
   font-weight: 700;
-  --text-opacity: 1;
-  color: #AB2023;
-  color: rgba(171, 32, 35, var(--text-opacity));
-}
-
-h1:first-child,
-.h1:first-child,
-h2:first-child,
-.h2:first-child,
-h3:first-child,
-.h3:first-child,
-h4:first-child,
-.h4:first-child,
-h5:first-child,
-.h5:first-child,
-h6:first-child,
-.h6:first-child {
-  margin-top: 0;
 }
 
 h1,
 .h1 {
   font-weight: 800;
-  font-size: 2.125rem;
+  font-size: 1.75rem;
 }
 
 @media (min-width: 768px) {
@@ -904,8 +885,7 @@ li ol {
 
 ol,
 ul {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 ol {
@@ -917,15 +897,7 @@ ul {
 }
 
 p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-@media (min-width: 768px) {
-  p {
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-  }
+  margin-bottom: 1rem;
 }
 
 pre {
@@ -1017,6 +989,7 @@ input[type=submit]:hover {
 .bg-img > img.bottom > img {
   -o-object-position: center bottom;
      object-position: center bottom;
+  width: 100%;
 }
 
 .nav-menu {
@@ -11946,6 +11919,22 @@ input[type=submit]:hover {
   max-height: 100vh;
 }
 
+.max-w-25{
+  max-width: 25%;
+}
+
+.max-w-33{
+  max-width: 33.333%;
+}
+
+.max-w-50{
+  max-width: 50%;
+}
+
+.max-w-250{
+  max-width: 250px;
+}
+
 .max-w-none{
   max-width: none;
 }
@@ -12008,14 +11997,6 @@ input[type=submit]:hover {
 
 .max-w-screen-xl{
   max-width: 1280px;
-}
-
-.max-w-7xl{
-  max-width: 80rem;
-}
-
-.max-w-8xl{
-  max-width: 88rem;
 }
 
 .min-h-0{
@@ -32375,6 +32356,22 @@ input[type=submit]:hover {
     max-height: 100vh;
   }
 
+  .sm\:max-w-25{
+    max-width: 25%;
+  }
+
+  .sm\:max-w-33{
+    max-width: 33.333%;
+  }
+
+  .sm\:max-w-50{
+    max-width: 50%;
+  }
+
+  .sm\:max-w-250{
+    max-width: 250px;
+  }
+
   .sm\:max-w-none{
     max-width: none;
   }
@@ -32437,14 +32434,6 @@ input[type=submit]:hover {
 
   .sm\:max-w-screen-xl{
     max-width: 1280px;
-  }
-
-  .sm\:max-w-7xl{
-    max-width: 80rem;
-  }
-
-  .sm\:max-w-8xl{
-    max-width: 88rem;
   }
 
   .sm\:min-h-0{
@@ -52731,6 +52720,22 @@ input[type=submit]:hover {
     max-height: 100vh;
   }
 
+  .md\:max-w-25{
+    max-width: 25%;
+  }
+
+  .md\:max-w-33{
+    max-width: 33.333%;
+  }
+
+  .md\:max-w-50{
+    max-width: 50%;
+  }
+
+  .md\:max-w-250{
+    max-width: 250px;
+  }
+
   .md\:max-w-none{
     max-width: none;
   }
@@ -52793,14 +52798,6 @@ input[type=submit]:hover {
 
   .md\:max-w-screen-xl{
     max-width: 1280px;
-  }
-
-  .md\:max-w-7xl{
-    max-width: 80rem;
-  }
-
-  .md\:max-w-8xl{
-    max-width: 88rem;
   }
 
   .md\:min-h-0{
@@ -73087,6 +73084,22 @@ input[type=submit]:hover {
     max-height: 100vh;
   }
 
+  .lg\:max-w-25{
+    max-width: 25%;
+  }
+
+  .lg\:max-w-33{
+    max-width: 33.333%;
+  }
+
+  .lg\:max-w-50{
+    max-width: 50%;
+  }
+
+  .lg\:max-w-250{
+    max-width: 250px;
+  }
+
   .lg\:max-w-none{
     max-width: none;
   }
@@ -73149,14 +73162,6 @@ input[type=submit]:hover {
 
   .lg\:max-w-screen-xl{
     max-width: 1280px;
-  }
-
-  .lg\:max-w-7xl{
-    max-width: 80rem;
-  }
-
-  .lg\:max-w-8xl{
-    max-width: 88rem;
   }
 
   .lg\:min-h-0{
@@ -93443,6 +93448,22 @@ input[type=submit]:hover {
     max-height: 100vh;
   }
 
+  .xl\:max-w-25{
+    max-width: 25%;
+  }
+
+  .xl\:max-w-33{
+    max-width: 33.333%;
+  }
+
+  .xl\:max-w-50{
+    max-width: 50%;
+  }
+
+  .xl\:max-w-250{
+    max-width: 250px;
+  }
+
   .xl\:max-w-none{
     max-width: none;
   }
@@ -93505,14 +93526,6 @@ input[type=submit]:hover {
 
   .xl\:max-w-screen-xl{
     max-width: 1280px;
-  }
-
-  .xl\:max-w-7xl{
-    max-width: 80rem;
-  }
-
-  .xl\:max-w-8xl{
-    max-width: 88rem;
   }
 
   .xl\:min-h-0{

@@ -6,7 +6,7 @@ return [
     'baseUrl' => '',
     'production' => false,
     'siteName' => 'Grace and Butter',
-    'siteDescription' => 'Delicious Food and Events by Mandi Lee',
+    'siteDescription' => 'Food Experiences by Mandi Lee',
     'siteAuthor' => 'Mandi Lee',
 
     // collections

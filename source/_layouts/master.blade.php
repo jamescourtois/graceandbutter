@@ -24,32 +24,33 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen">
-        <header class="flex items-center py-4" role="banner">
-            <div class="container flex items-center mx-auto px-4 lg:px-8">
-                <div class="flex items-center">
-                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
+        <header class="flex justify-center items-center px-8 py-4 bg-white shadow mb-8 fixed top-0 left-0 right-0 z-50" role="banner">
+           
+                
+                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center justify-center hover:no-underline">
                         
                         <div class="site-logo">
                             @include('_nav.site-logo-svg')
                         </div>
-
                         <span class="sr-only">{{ $page->siteName }}</span>
+                        <h1 class="text-red inline-flex items-center justify-start m-0 p-0 pl-8">Food Experiences by Mandi Lee</h1>
                     </a>
-                </div>
+                    
+                
 
-                <div id="vue-search" class="flex flex-1 justify-end items-center">
+                {{-- <div id="vue-search" class="flex flex-1 justify-end items-center">
                     
 
                     @include('_nav.menu')
 
                     {{-- @include('_nav.menu-toggle') --}}
-                </div>
-            </div>
+                {{-- </div> --}}
+           
         </header>
 
         {{-- @include('_nav.menu-responsive') --}}
 
-        <main role="main" class="flex-auto">
+        <main role="main" class="flex-auto pt-40 md:pt-48">
             @yield('body')
         </main>
         @if ($page->getPath() != '/contact' 
@@ -58,8 +59,8 @@
             @include('_layouts.form')
         @endif
 
-        <footer class="text-center text-sm my-8 py-4" role="contentinfo">
-            <ul class="flex flex-col md:flex-row justify-center list-none">
+        <footer class="text-center text-sm py-4" role="contentinfo">
+            <ul class="flex flex-col md:flex-row justify-center list-none m-0">
                 <li class="md:mr-2">
                     &copy; <a href="https://graceandbutter.com" title="Mandi Lee's website">Mandi Lee</a> {{ date('Y') }}.
                 </li>
