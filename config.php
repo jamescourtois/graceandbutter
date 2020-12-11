@@ -5,7 +5,7 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'Grace and Butter',
+    'siteName' => 'Grace & Butter by Mandi Lee',
     'siteDescription' => 'Food Experiences by Mandi Lee',
     'siteAuthor' => 'Mandi Lee',
 

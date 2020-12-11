@@ -33,8 +33,8 @@
                             @include('_nav.site-logo-svg')
                         </div>
                         <span class="sr-only">{{ $page->siteName }}</span>
-                        <h1 class="text-red inline-flex items-center justify-start m-0 p-0 pl-8">Food Experiences by Mandi Lee</h1>
                     </a>
+                    <a class="hover:no-underline" href="/"><h1 class="text-red inline-flex items-center justify-start m-0 p-0 pl-8">Food Experiences by Mandi Lee</h1></a>
                     
                 
 
@@ -62,7 +62,7 @@
         <footer class="text-center text-sm py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none m-0">
                 <li class="md:mr-2">
-                    &copy; <a href="http://graceandbutter.com" title="Mandi Lee's website">Grace and Butter by Mandi Lee</a> {{ date('Y') }}.
+                    &copy; <a href="http://graceandbutter.com" title="Mandi Lee's website">Grace & Butter by Mandi Lee</a> {{ date('Y') }}.
                 </li>
 
                 <li>

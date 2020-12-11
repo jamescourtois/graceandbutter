@@ -5,9 +5,14 @@ description: 12 holiday treats brought to you by Mandi Lee
 @extends('_layouts.master')
 
 @section('body')
-<div class="container mx-auto px-4 flex flex-wrap items-start justify-start">
+{{-- <div class="container mx-auto relative h-64">
+    <div class="bg-img">
+        <img src="/assets/img/cookiebox.jpg" alt="Grace & Butter Christmas Cookie Box">
+    </div>
+</div> --}}
+<div class="container mx-auto px-4 flex flex-wrap items-stretch justify-start mb-16">
     
-    <div class="flex flex-col w-full lg:w-3/5 lg:pr-16 mb-16">
+    <div class="flex flex-col w-full lg:w-1/2 lg:pr-16 mb-16 lg:mb-0">
         <h1 class="text-dark-teal">Order Christmas Cookies</h1>
         
         <div class="flex flex-wrap md:flex-no-wrap">
@@ -92,7 +97,7 @@ description: 12 holiday treats brought to you by Mandi Lee
             <div class="flex flex-wrap mb-6 -mx-3">
                 <div class="w-full mb-12 md:w-1/2 px-3 md:mb-0">
                     <label class="block text-gray-800 text-sm font-semibold mb-2" for="box-count">
-                        How many cookie boxes do you want?
+                        How many Christmas cookie boxes do you want?
                     </label>
             
                         <input
@@ -107,7 +112,7 @@ description: 12 holiday treats brought to you by Mandi Lee
             
                 <div class="w-full mb-12 md:w-1/2 px-3 md:mb-0">
                     <label class="block text-gray-800 text-sm font-semibold mb-2" for="box-count">
-                        Where should I deliver or ship to?
+                        Where should I deliver or ship the cookie boxes?
                     </label>
             
                     <textarea
@@ -136,8 +141,10 @@ description: 12 holiday treats brought to you by Mandi Lee
             </div>
         </form>
     </div>
-    <div class="flex flex-col w-full lg:w-2/5 border border-t-2 border-l-2 border-r-2 border-b-1 border-black">
-        <img src="/assets/img/cookiebox.jpg" class="block mx-auto" alt="Grace and Butter Christmas Cookie Box">
+    <div class="relative flex flex-col w-full lg:w-1/2 min-h-500 lg:min-h-0">
+        <div class="bg-img">
+            <img src="/assets/img/cookiebox.jpg" class="block mx-auto" alt="Grace & Butter Christmas Cookie Box">
+        </div>
     </div>
 </div>
 @stop

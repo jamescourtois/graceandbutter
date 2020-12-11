@@ -1,6 +1,6 @@
 ---
 title: Thank You
-description: Thanks for supporting Grace and Butter!
+description: Thanks for supporting Grace & Butter!
 ---
 @extends('_layouts.master')
 
