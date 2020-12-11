@@ -10,7 +10,7 @@
             <div class="relative w-full p-8 bg-red text-white shadow">
                 <div class="relative z-10 flex flex-col items-center justify-start w-full h-full">
                     <h3>Grace and Butter Pie Pop-up!</h3>
-                    <span class="block mb-4">December 12 and December 19 @ Sweet Things Sweet Shop in St. Genevieve!</span>
+                    <span class="block mb-4">December 12 and December 19 <br>@ Sweet Things Sweet Shop in St. Genevieve!</span>
                     <div class="flex-1 flex flex-col items-center justify-end w-full"><a class="btn" target="_blank" href="https://stegencandy.square.site">Details and Ordering Here</a></div>
                     
                 </div>
