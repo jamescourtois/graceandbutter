@@ -62,12 +62,12 @@
         <footer class="text-center text-sm py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none m-0">
                 <li class="md:mr-2">
-                    &copy; <a href="https://graceandbutter.com" title="Mandi Lee's website">Grace and Butter by Mandi Lee</a> {{ date('Y') }}.
+                    &copy; <a href="http://graceandbutter.com" title="Mandi Lee's website">Grace and Butter by Mandi Lee</a> {{ date('Y') }}.
                 </li>
 
                 <li>
-                    Built by <a target="_blank" title="I developed this website" href="https://jamescourtois.surge.sh">James Courtois</a> with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-                    and <a target="_blank" href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>. Hosted and deployed using <a target="_blank" title="This is where my website lives" href="https://surge.sh">Surge</a>. Forms powered by <a href="form-data.com" target="blank">form-data.com</a>. Form data is deleted after 90 days.
+                    Built by <a target="_blank" title="I developed this website" href="https://jamescourtois.surge.sh">James Courtois</a> with <a href="http://jigsaw.tighten.co" target="_blank" title="Jigsaw by Tighten">Jigsaw</a>
+                    and <a target="_blank" href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>. Hosted and deployed using <a target="_blank" title="This is where my website lives" href="https://surge.sh">Surge</a>. Forms powered by <a href="https://form-data.com" target="blank">form-data.com</a>. Form data is deleted after 90 days.
                 </li>
             </ul>
         </footer>
