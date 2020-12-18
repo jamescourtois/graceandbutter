@@ -182,3 +182,13 @@ input[type=submit] {
         width: 100%;
     }
 }
+
+div.instagram_gallery > a.instagram-image {
+    width: 48% !important;
+    @screen md {
+        width: 31% !important;
+    }
+    @screen lg {
+        width: 23% !important;
+    }
+}

@@ -24,7 +24,7 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen">
-        <header class="flex justify-center items-center px-4 py-4 bg-white shadow mb-8 fixed top-0 left-0 right-0 z-50" role="banner">
+        <header class="flex justify-center items-center py-2 bg-white shadow-lg mb-8 fixed top-0 left-0 right-0 z-50" role="banner">
            
                 
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center justify-center hover:no-underline">
@@ -34,7 +34,7 @@
                         </div>
                         <span class="sr-only">{{ $page->siteName }}</span>
                     </a>
-                    <a class="hover:no-underline" href="/"><h1 class="text-red inline-flex items-center justify-start text-3xl leading-tight lg:text-5xl m-0 p-0 pl-2 lg:pl-4">Food Experiences <br class="lg:hidden"/>by Mandi Lee</h1></a>
+                    <a class="hover:no-underline" href="/"><h1 class="text-red inline-flex items-center justify-start text-3xl leading-tight lg:text-5xl m-0 p-0 pl-4">Food Experiences <br class="lg:hidden"/>by Mandi Lee</h1></a>
                     
                 
 
@@ -50,7 +50,7 @@
 
         {{-- @include('_nav.menu-responsive') --}}
 
-        <main role="main" class="flex-auto pt-40">
+        <main role="main" class="flex-auto pt-32">
             @yield('body')
         </main>
         @if ($page->getPath() != '/contact' 
@@ -60,14 +60,16 @@
         @endif
 
         <footer class="text-center text-sm py-4" role="contentinfo">
-            <ul class="flex flex-col md:flex-row justify-center list-none m-0">
+            <ul class="flex flex-col justify-center list-none m-0">
                 <li class="md:mr-2">
-                    &copy; <a href="http://graceandbutter.com" title="Mandi Lee's website">Grace & Butter by Mandi Lee</a> {{ date('Y') }}.
+                    &copy; {{ date('Y') }} <a href="http://graceandbutter.com" title="Mandi Lee's website">Grace & Butter by Mandi Lee</a>.
                 </li>
 
                 <li>
                     Built by <a target="_blank" title="I developed this website" href="https://jamescourtois.surge.sh">James Courtois</a> with <a href="http://jigsaw.tighten.co" target="_blank" title="Jigsaw by Tighten">Jigsaw</a>
-                    and <a target="_blank" href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>. Hosted and deployed using <a target="_blank" title="This is where my website lives" href="https://surge.sh">Surge</a>. Forms powered by <a href="https://form-data.com" target="blank">form-data.com</a>. Form data is deleted after 90 days.
+                    and <a target="_blank" href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>. 
+                    Hosted and deployed using <a target="_blank" title="This is where my website lives" href="https://surge.sh">Surge</a>.
+                    Forms powered by <a href="https://form-data.com" target="blank">form-data.com</a>. Form data is deleted after 90 days.
                 </li>
             </ul>
         </footer>

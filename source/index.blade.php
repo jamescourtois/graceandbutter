@@ -2,7 +2,7 @@
 
 @section('body')
     <div class="container mx-auto text-center">
-        <h2 class="text-dark-teal px-16 lg:text-4xl mb-8 mt-2">What's Happening at Grace & Butter</h2>
+        <h2 class="text-dark-teal px-16 lg:text-4xl mb-8 mt-6">What's Happening at Grace & Butter</h2>
     </div>
     @include('_layouts.happenings')
     <div class="bg-dark-teal text-white py-16 px-4">
@@ -21,16 +21,16 @@
         </div>
     </div>
     <div class="bg-white py-8 lg:py-16">
-        <div class="container mx-auto text-center pb-16">
-            <h2>Follow Grace & Butter on Instagram!</h2>
-            <a href="https://instagram.com/graceandbutter" class="btn teal">@graceandbutter</a>
+        <div class="container mx-auto text-center pb-6">
+            <h2 class="text-red text-xl md:text-2xl">Follow Grace & Butter on Instagram!</h2>
+            <a href="https://instagram.com/graceandbutter" target="_blank" class="btn teal">@graceandbutter</a>
         </div>
-        <div class="container mx-auto"  id="insta">
+        <div class="container mx-auto px-4"  id="insta">
 
         </div>
     </div>
     <div class="bg-light-teal py-8">
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-6">
             <p class="m-0 text-sm lg:text-base uppercase text-center tracking-widest">Grace & Butter is Proud to serve the <a href="https://en.wikipedia.org/wiki/Greater_St._Louis" target="_blank">Greater St. Louis Metropolitan Area</a></p>
         </div>
     </div>
