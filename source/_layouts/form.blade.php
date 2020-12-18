@@ -19,7 +19,7 @@
         
         <div class="w-full lg:w-1/3">
             <h2 class="text-white mb-8 text-4xl md:text-5xl">What food experience can I create for you?</h2>
-            <p class="text-white">Fill out this form and let me know in detail what food or dessert I can create for you! I will get read everything over and get back to you within 24 hours.</p>
+            <p class="text-white">Fill out this form and let me know in detail what food or dessert I can create for you! I will read everything over and get back to you within 24 hours.</p>
             <p class="text-white mb-16">If you would rather email me, you can reach me at <a class="text-white hover:text-white" href="mailto:graceandbutter@gmail.com">graceandbutter@gmail.com</a></p>
         </div>
         
