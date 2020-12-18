@@ -24,7 +24,7 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen">
-        <header class="flex justify-center items-center px-8 py-4 bg-white shadow mb-8 fixed top-0 left-0 right-0 z-50" role="banner">
+        <header class="flex justify-center items-center px-4 py-4 bg-white shadow mb-8 fixed top-0 left-0 right-0 z-50" role="banner">
            
                 
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center justify-center hover:no-underline">
@@ -34,7 +34,7 @@
                         </div>
                         <span class="sr-only">{{ $page->siteName }}</span>
                     </a>
-                    <a class="hover:no-underline" href="/"><h1 class="text-red inline-flex items-center justify-start m-0 p-0 pl-8">Food Experiences by Mandi Lee</h1></a>
+                    <a class="hover:no-underline" href="/"><h1 class="text-red inline-flex items-center justify-start text-3xl leading-tight lg:text-5xl m-0 p-0 pl-2 lg:pl-4">Food Experiences <br class="lg:hidden"/>by Mandi Lee</h1></a>
                     
                 
 

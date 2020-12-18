@@ -36,6 +36,7 @@ module.exports = {
         'light-teal' : '#B5ECEE',
       },
       lineHeight: {
+        tight: '1.2',
         normal: '1.6',
         loose: '1.75',
       },
