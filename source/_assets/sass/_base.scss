@@ -162,6 +162,13 @@ input[type=submit] {
     &:hover {
         @apply no-underline bg-teal text-white;
     }
+
+    &.teal {
+        @apply bg-dark-teal text-white;
+        &:hover {
+            @apply bg-teal text-white;
+        }
+    }
 }
 
 .bg-img,
