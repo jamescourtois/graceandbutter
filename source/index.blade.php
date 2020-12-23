@@ -1,11 +1,9 @@
 @extends('_layouts.master')
 
 @section('body')
-    <div class="container mx-auto text-center">
-        <h2 class="text-dark-teal px-16 lg:text-4xl mb-8 mt-6">What's Happening at Grace & Butter</h2>
-    </div>
+    
     @include('_layouts.happenings')
-    <div class="bg-dark-teal text-white py-16 px-4">
+    <div class="bg-dark-teal text-white py-16 px-4 shadow-lg relative z-40">
         <div class="container mx-auto flex flex-wrap">
             <div class="w-full">
                 <img src="/assets/img/mandi.jpg" alt="Portrait of Mandi Lee of Grace & Butter" class="mr-4 md:mr-16 mb-2 md:mb-8 max-w-40 md:max-w-33 lg:max-w-250 float-left">
@@ -20,7 +18,7 @@
             
         </div>
     </div>
-    <div class="bg-white py-8 lg:py-16">
+    <div class="bg-white py-8 lg:py-16 relative z-30 shadow-lg">
         <div class="container mx-auto text-center pb-6">
             <h2 class="text-red text-xl md:text-2xl">Follow Grace & Butter on Instagram!</h2>
             <a href="https://instagram.com/graceandbutter" target="_blank" class="btn teal">@graceandbutter</a>
@@ -29,7 +27,7 @@
 
         </div>
     </div>
-    <div class="bg-light-teal py-8">
+    <div class="bg-light-teal py-8 relative shadow-lg z-20">
         <div class="container mx-auto px-6">
             <p class="m-0 text-sm lg:text-base uppercase text-center tracking-widest">Grace & Butter is Proud to serve the <a href="https://en.wikipedia.org/wiki/Greater_St._Louis" target="_blank">Greater St. Louis Metropolitan Area</a></p>
         </div>

@@ -24,7 +24,7 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen">
-        <header class="flex justify-center items-center py-2 bg-white shadow-lg mb-8 fixed top-0 left-0 right-0 z-50" role="banner">
+        <header class="flex justify-center items-center py-2 bg-white shadow-lg z-50 relative" role="banner">
            
                 
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center justify-center hover:no-underline">
@@ -50,7 +50,7 @@
 
         {{-- @include('_nav.menu-responsive') --}}
 
-        <main role="main" class="flex-auto pt-32">
+        <main role="main" class="flex-auto relative z-10">
             @yield('body')
         </main>
         @if ($page->getPath() != '/contact' 
