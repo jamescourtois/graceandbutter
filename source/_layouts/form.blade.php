@@ -2,7 +2,7 @@
 <script>
     function onloadCallback() {
         /* Place your recaptcha rendering code here */
-        var form = document.getElementById('gabform');
+        var form = document.getElementById('contact');
 
         form.addEventListener("submit", function (event) {
             if (grecaptcha.getResponse() === '') {
@@ -25,7 +25,7 @@
         
         <div class="w-full lg:w-2/3 lg:pl-24">
             <h3 class="text-white">Contact Form</h3>
-            <form id="gabform" action="https://api.form-data.com/f/9xz2k54fdkmw20ecsf9ac" method="post" >
+            <form id="contact" action="https://api.form-data.com/f/9xz2k54fdkmw20ecsf9ac" method="post" >
                 
             
                 <div class="flex flex-wrap mb-6 -mx-3">
