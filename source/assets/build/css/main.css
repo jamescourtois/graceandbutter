@@ -722,10 +722,6 @@ video {
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: Quicksand;
   line-height: 1.6;

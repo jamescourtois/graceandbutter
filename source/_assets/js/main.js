@@ -45,3 +45,13 @@ new InstagramFeed({
     'on_error': console.error
 });
 
+
+
+
+document.querySelector(".btn.order").addEventListener("click", (e) => { 
+    e.preventDefault();
+    console.log('gay');
+    document.querySelector(".formbox").scrollIntoView({
+        behavior: 'smooth',
+    })
+ });
