@@ -1,19 +1,6 @@
 
-<script>
-    function onloadCallback() {
-        /* Place your recaptcha rendering code here */
-        var form = document.getElementById('contact');
 
-        form.addEventListener("submit", function (event) {
-            if (grecaptcha.getResponse() === '') {
-                event.preventDefault();
-                alert('Please check the recaptcha box and try submitting again.');
-            }
-        }, false);
-    }
-</script>
 
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback"></script>
 <div class="formbox bg-dark-teal py-16 lg:py-24">
     <div class="container flex flex-wrap mx-auto px-4">
         
@@ -74,9 +61,9 @@
                         required
                     ></textarea>
                 </div>
+
+                <input type="text" name="xx_password" class="sr-only" tabindex="-1" autocomplete="off">
             
-                <div class="g-recaptcha mb-6"
-                   data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
             
                 <div class="flex justify-start w-full">
                     <input
@@ -89,3 +76,4 @@
         </div>
     </div>
 </div>
+

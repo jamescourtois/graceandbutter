@@ -196,3 +196,30 @@ div.instagram_gallery > a.instagram-image {
         width: 23% !important;
     }
 }
+
+.row {
+    @apply flex flex-wrap items-stretch justify-center;
+    .content{
+        @apply w-full flex flex-col items-center justify-center p-16 text-white bg-red;;
+    }
+    .image {
+        @apply relative w-full;
+        height: 300px;
+        min-height: 300px;
+    }
+    @screen lg {
+        .image {
+            @apply h-auto w-1/2;
+            min-height: 400px;
+        }
+        .content {
+            @apply w-1/2;
+        }
+        &:nth-child(even){
+            @apply flex-row-reverse;
+            .content {
+                @apply bg-light-teal text-dark-teal;
+            }
+        }
+    }
+}
