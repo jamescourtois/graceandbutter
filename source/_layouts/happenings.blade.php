@@ -19,48 +19,6 @@
     </div>
 </div>
 
-<div class="row">
-    
-    <div class="content">
-        <h2>Game Time Specials</h2>
-        <ul class="text-left pl-4">
-            <li>Cheeseball</li>
-            <li>Buffalo Chicken Dip</li>
-            <li>Charcuterie Board (Feeds 4-6)</li>
-            <li>Barbacoa Taco Bar (Feeds 4-6)</li>
-            <li>Football Deviled Eggs (Dozen)</li>
-            <li>Salami Roll-ups (Dozen)</li>
-        </ul>
-        <a class="btn order" href="#contact">Order Here</a>
-    </div>
-    
-    <div class="image">
-        <div class="bg-img">
-            <img src="/assets/img/football.jpg" alt="Football Photo">
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    
-    <div class="content">
-        <h2>January Specials</h2>
-        <ul class="text-left pl-4">
-            <li>Cheesecake w/ Berry Reduction</li>
-            <li>Chocolate Cherry Bread</li>
-            <li>Cherry Pie</li>
-            <li>Apple Pie</li>
-            <li>Chicken Lettuce Cups Dinner</li>
-        </ul>
-        <a class="btn order" href="#contact">Order Here</a>
-    </div>
-    
-    <div class="image">
-        <div class="bg-img">
-            <img src="/assets/img/cheesecake.png" alt="Quiche Photo">
-        </div>
-    </div>
-</div>
 
 <div class="row">
     <div class="content">

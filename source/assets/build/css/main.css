@@ -1052,6 +1052,15 @@ div.instagram_gallery > a.instagram-image {
   background-color: rgba(171, 32, 35, var(--bg-opacity));
 }
 
+.row:nth-child(even) .content {
+  --bg-opacity: 1;
+  background-color: #B5ECEE;
+  background-color: rgba(181, 236, 238, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #336a6c;
+  color: rgba(51, 106, 108, var(--text-opacity));
+}
+
 .row .image {
   position: relative;
   width: 100%;
@@ -1072,15 +1081,6 @@ div.instagram_gallery > a.instagram-image {
 
   .row:nth-child(even) {
     flex-direction: row-reverse;
-  }
-
-  .row:nth-child(even) .content {
-    --bg-opacity: 1;
-    background-color: #B5ECEE;
-    background-color: rgba(181, 236, 238, var(--bg-opacity));
-    --text-opacity: 1;
-    color: #336a6c;
-    color: rgba(51, 106, 108, var(--text-opacity));
   }
 }
 
