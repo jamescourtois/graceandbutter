@@ -6,7 +6,7 @@
         
         <div class="w-full lg:w-1/3">
             <h1 class="text-white mb-8 text-4xl md:text-5xl">How did I do?</h1>
-            <p class="text-white">Fill out this form and let me know how you felt about the food experience I created for you. Be honest! I will read this over and address any concerns you may have. I may reach out to you and ask if I can feature your feedback as a review on my website.</p>
+            <p class="text-white">Fill out this form and let me know how you felt about the food experience I created for you. Be honest!</p>
             <p class="text-white mb-16">If you would rather email me, you can reach me at <a class="text-white hover:text-white" href="mailto:graceandbutter@gmail.com">graceandbutter@gmail.com</a></p>
         </div>
         

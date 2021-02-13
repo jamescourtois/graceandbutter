@@ -34,7 +34,7 @@
                         </div>
                         <span class="sr-only">{{ $page->siteName }}</span>
                     </a>
-                    <a class="hover:no-underline" href="/"><h1 class="text-red inline-flex items-center justify-start text-3xl leading-tight lg:text-5xl m-0 p-0 pl-4">Food Experiences <br class="lg:hidden"/>by Mandi Lee</h1></a>
+                    <a class="no-underline hover:no-underline" href="/"><h1 class="text-red inline-flex items-center justify-start text-3xl leading-tight lg:text-5xl m-0 p-0 pl-4">Food Experiences <br class="lg:hidden"/>by Mandi Lee</h1></a>
                     
                 
 
