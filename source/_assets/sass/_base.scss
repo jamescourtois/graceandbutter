@@ -8,10 +8,11 @@ body {
 }
 
 a {
-    @apply .font-semibold no-underline text-dark-teal;
+    @apply underline font-semibold text-dark-teal;
+    transition: 200ms ease-out;
 
     &:hover {
-        @apply text-blue-800 underline;
+        @apply text-white;
     }
 }
 
@@ -160,7 +161,7 @@ pre {
 .btn,
 a.btn,
 input[type=submit] {
-    @apply inline-flex items-center justify-center p-4 bg-white text-dark-teal cursor-pointer font-bold;
+    @apply inline-flex no-underline items-center justify-center p-4 bg-white text-dark-teal cursor-pointer font-bold;
     transition: 300ms ease;
 
     &:hover {

@@ -53,8 +53,7 @@
         <main role="main" class="flex-auto relative z-10">
             @yield('body')
         </main>
-        @if ($page->getPath() != '/contact' 
-            && $page->getPath() != '/cookie-order'
+        @if ($page->getPath() != '/feedback'
             && $page->getPath() != '/thank-you')
             @include('_layouts.form')
         @endif

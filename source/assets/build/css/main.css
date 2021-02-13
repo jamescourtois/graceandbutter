@@ -735,18 +735,18 @@ body {
 }
 
 a {
+  text-decoration: underline;
   font-weight: 600;
-  text-decoration: none;
   --text-opacity: 1;
   color: #336a6c;
   color: rgba(51, 106, 108, var(--text-opacity));
+  transition: 200ms ease-out;
 }
 
 a:hover {
   --text-opacity: 1;
-  color: #2c5282;
-  color: rgba(44, 82, 130, var(--text-opacity));
-  text-decoration: underline;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
 }
 
 blockquote {
@@ -942,6 +942,7 @@ pre code {
 a.btn,
 input[type=submit] {
   display: inline-flex;
+  text-decoration: none;
   align-items: center;
   justify-content: center;
   padding: 1rem;

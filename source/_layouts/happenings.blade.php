@@ -1,27 +1,5 @@
 <div class="row">
     <div class="content">
-        <h2>Valentine's Menu</h2>
-        <ul class="text-left pl-4">
-            <li>Cookie Gram - 3 Cookies + Note via USPS</li>
-            <li>Chocoloate Torte (Gluten Free)</li>
-            <li>Heart-shaped Rice Krispies</li>
-            <li>Candied Pecans</li>
-            <li>Chicken Pot Pie Dinner for 2</li>
-            <li>Crawfish Etouffee (Feeds 2-4)</li>
-        </ul>
-        <a class="btn order" href="#contact">Order Here</a>
-    </div>
-    
-    <div class="image">
-        <div class="bg-img">
-            <img src="/assets/img/roses.jpg" alt="Football Photo">
-        </div>
-    </div>
-</div>
-
-
-<div class="row">
-    <div class="content">
         <h2>Classics Menu</h2>
         <ul class="text-left pl-4">
             <li>Cookies by the Dozen</li>
@@ -38,5 +16,11 @@
         <div class="bg-img">
             <img src="/assets/img/applepie.jpg" alt="Apple Pie Photo">
         </div>
+    </div>
+</div>
+<div class="">
+    <div class="container py-8 text-center px-8 mx-auto flex flex-col lg:flex-row items-center justify-center">
+        <p class="mb-6 lg:mb-0">Did you recently order from Grace & Butter? Tell me what you think!</p>
+        <a class="btn mx-4" href="/feedback">Leave Feedback</a>
     </div>
 </div>

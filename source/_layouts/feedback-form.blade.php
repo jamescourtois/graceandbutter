@@ -5,15 +5,14 @@
     <div class="container flex flex-wrap mx-auto px-4">
         
         <div class="w-full lg:w-1/3">
-            <h2 class="text-white mb-8 text-4xl md:text-5xl">What food experience can I create for you?</h2>
-            <p class="text-white">Fill out this form and let me know in detail what food or dessert I can create for you! I will read everything over and get back to you within 24 hours.</p>
-            <p class="text-white">If you would rather email me, you can reach me at <a class="text-white underline hover:text-light-teal" href="mailto:graceandbutter@gmail.com">graceandbutter@gmail.com</a></p>
-            <p class="text-white mb-16">If you would like to leave feedback about your recent order, please <a class="text-white underline hover:text-light-teal" href="/feedback">fill out my feedback form.</a></p>
+            <h1 class="text-white mb-8 text-4xl md:text-5xl">How did I do?</h1>
+            <p class="text-white">Fill out this form and let me know how you felt about the food experience I created for you. Be honest! I will read this over and address any concerns you may have. I may reach out to you and ask if I can feature your feedback as a review on my website.</p>
+            <p class="text-white mb-16">If you would rather email me, you can reach me at <a class="text-white hover:text-white" href="mailto:graceandbutter@gmail.com">graceandbutter@gmail.com</a></p>
         </div>
         
         <div class="w-full lg:w-2/3 lg:pl-24">
-            <h3 class="text-white">Contact Form</h3>
-            <form id="contact" action="https://api.form-data.com/f/9xz2k54fdkmw20ecsf9ac" method="post" >
+            <h3 class="text-white">Feedback Form</h3>
+            <form id="contact" action="https://api.form-data.com/f/au1yr2rj85ddx9jgvewff" method="post" >
                 
             
                 <div class="flex flex-wrap mb-6 -mx-3">
@@ -49,16 +48,16 @@
                 </div>
             
                 <div class="w-full mb-12">
-                    <label class="block text-sm font-semibold mb-2 text-white" for=-message">
-                        Message
+                    <label class="block text-sm font-semibold mb-2 text-white" for="message">
+                        What did you think about your food experience?
                     </label>
             
                     <textarea
-                        id="message"
+                        id="review"
                         rows="4"
-                        name="message"
+                        name="review"
                         class="block w-full border shadow rounded-lg outline-none appearance-none mb-2 px-4 py-3"
-                        placeholder="What food or dessert are you interested in?"
+                        placeholder="Write your feedback here."
                         required
                     ></textarea>
                 </div>
