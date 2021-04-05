@@ -39,6 +39,7 @@ new InstagramFeed({
     'callback': null,
     'styling': true,
     'items': 8,
+    'host': 'https://images' + ~~(Math.random() * 3333) + '-focus-opensocial.googleusercontent.com/gadgets/proxy?container=none&url=https://www.instagram.com/',
     'items_per_row': 4,
     'margin': 1,
     'lazy_load': true,
