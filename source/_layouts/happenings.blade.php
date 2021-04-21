@@ -1,25 +1,5 @@
 <div class="row">
     <div class="content">
-        <h2>Easter Menu</h2>
-        <ul class="text-left pl-4">
-            <li>Single Layer 9" Carrot Cake</li>
-            <li>Cherry Chocolate Braided Bread</li>
-            <li>Deep Dish Quiche</li>
-            <li>Chocolate Easter Bunnies</li>
-            <li>Bird's Next Cookies</li>
-            <li>Turtle Cheesecake</li>
-        </ul>
-        <a class="btn order" href="#contact">Submit Order Form</a>
-    </div>
-    
-    <div class="image">
-        <div class="bg-img">
-            <img src="/assets/img/cheesecake.jpg" alt="Cheesecake Photo">
-        </div>
-    </div>
-</div>
-<div class="row">
-    <div class="content">
         <h2>Classics Menu</h2>
         <ul class="text-left pl-4">
             <li>Cookies by the Dozen</li>
