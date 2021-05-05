@@ -11,7 +11,7 @@
     </div>
     <div class="image">
         <div class="bg-img">
-            <img src="/assets/img/ccbread.jpg" alt="Apple Pie Photo">
+            <img src="/assets/img/dinner.jpg" alt="Dinner Photo">
         </div>
     </div>
 </div>
@@ -29,7 +29,7 @@
     </div>
     <div class="image">
         <div class="bg-img">
-            <img src="/assets/img/ccbread.jpg" alt="Apple Pie Photo">
+            <img src="/assets/img/teapot.jpg" alt="Tea Pot Photo">
         </div>
     </div>
 </div>
@@ -45,7 +45,7 @@
     </div>
     <div class="image">
         <div class="bg-img">
-            <img src="/assets/img/ccbread.jpg" alt="Apple Pie Photo">
+            <img src="/assets/img/ccbread.jpg" alt="CC Bread Photo">
         </div>
     </div>
 </div>
@@ -67,7 +67,7 @@
     </div>
     <div class="image">
         <div class="bg-img">
-            <img src="/assets/img/bbmuffin.jpg" alt="Apple Pie Photo">
+            <img src="/assets/img/bbmuffin.jpg" alt="Muffin Photo">
         </div>
     </div>
 </div>

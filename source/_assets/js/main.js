@@ -4,7 +4,6 @@ window.Vue = require('vue');
 
 // import Search from './components/Search.vue';
 import hljs from 'highlight.js/lib/highlight';
-import InstagramFeed from './InstagramFeed.min.js';
 
 // Syntax highlighting
 hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'));
@@ -23,36 +22,3 @@ document.querySelectorAll('pre code').forEach((block) => {
 
 Vue.config.productionTip = false;
 
-// new Vue({
-//     components: {
-//         Search,
-//     },
-// }).$mount('#vue-search');
-
-new InstagramFeed({
-    'username': 'graceandbutter',
-    'container': document.getElementById("insta"),
-    'display_profile': false,
-    'display_biography': true,
-    'display_gallery': true,
-    'display_captions': true,
-    'callback': null,
-    'styling': true,
-    'items': 8,
-    'host': 'https://images' + ~~(Math.random() * 3333) + '-focus-opensocial.googleusercontent.com/gadgets/proxy?container=none&url=https://www.instagram.com/',
-    'items_per_row': 4,
-    'margin': 1,
-    'lazy_load': true,
-    'on_error': console.error
-});
-
-
-
-
-document.querySelector(".btn.order").addEventListener("click", (e) => { 
-    e.preventDefault();
-    console.log('gay');
-    document.querySelector(".formbox").scrollIntoView({
-        behavior: 'smooth',
-    })
- });

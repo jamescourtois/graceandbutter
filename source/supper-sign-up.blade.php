@@ -7,6 +7,6 @@ description: Reserve your place at the table with Grace & Butter here!
 
 @section('body')
     
-   @include('_layouts.tea-sign-up-form')
+   @include('_layouts.supper-sign-up-form')
    
 @stop
