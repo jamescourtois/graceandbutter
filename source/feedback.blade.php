@@ -8,7 +8,5 @@ description: Thanks for supporting Grace & Butter!
 @section('body')
     
    @include('_layouts.feedback-form')
-   
-   
     
 @stop

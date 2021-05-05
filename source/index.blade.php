@@ -19,13 +19,13 @@
         </div>
     </div>
     <div class="bg-white py-8 lg:py-16 relative z-30 shadow-lg">
-        <div class="container mx-auto text-center pb-6">
+        <div class="container mx-auto text-center">
             <h2 class="text-red text-xl md:text-2xl">Follow Grace & Butter on Instagram!</h2>
             <a href="https://instagram.com/graceandbutter" target="_blank" class="btn teal">@graceandbutter</a>
         </div>
-        <div class="container mx-auto px-4"  id="insta">
+        {{-- <div class="container mx-auto px-4"  id="insta">
 
-        </div>
+        </div> --}}
     </div>
     <div class="bg-light-teal py-8 relative shadow-lg z-20">
         <div class="container mx-auto px-6">

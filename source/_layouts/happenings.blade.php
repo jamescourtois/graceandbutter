@@ -1,6 +1,41 @@
 <div class="row">
     <div class="content">
-    <h2>Your Next Chance to Visit Grace & Butter!</h2>
+    <h2>Supper with Grace & Butter!</h2>
+    <p class="h2">Saturday June 5, 2021 @ 6 p.m.</p>
+    <a 
+    href="https://www.google.com/maps/place/Ivory+Orange/@38.5488439,-90.2622034,15z/data=!4m2!3m1!1s0x0:0x199f22acf1f085d5?sa=X&ved=2ahUKEwjAmJCh1rLwAhUKOs0KHYTKD1IQ_BIwG3oECEcQBQ" 
+    class="h4" target="_blank">
+        Ivory Orange
+    </a>
+  <a href="/supper-sign-up" class="btn">Details & Registration</a>
+    </div>
+    <div class="image">
+        <div class="bg-img">
+            <img src="/assets/img/ccbread.jpg" alt="Apple Pie Photo">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="content">
+    <h2>Tea Party with Grace & Butter!</h2>
+    <p class="h2">Sunday June 6, 2021 @ 2 p.m.</p>
+    
+    <a 
+    href="https://www.google.com/maps/place/Ivory+Orange/@38.5488439,-90.2622034,15z/data=!4m2!3m1!1s0x0:0x199f22acf1f085d5?sa=X&ved=2ahUKEwjAmJCh1rLwAhUKOs0KHYTKD1IQ_BIwG3oECEcQBQ" 
+    class="h4" target="_blank">
+        Ivory Orange
+    </a>
+  <a href="/tea-sign-up" class="btn">Details & Registration</a>
+    </div>
+    <div class="image">
+        <div class="bg-img">
+            <img src="/assets/img/ccbread.jpg" alt="Apple Pie Photo">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="content">
+    <h2>Farmer's Market Pop Up!</h2>
     <p class="h2">May 22, 2021 </p>
     <p class="h4">Cape Riverfront Farmer’s Market</p>
     <p class="h4">8 a.m. - 12 p.m.</p>
@@ -19,8 +54,6 @@
         <h2>More Upcoming G&B Events</h2>
         <p>More Details will be posted soon!</p>
         <ul>
-            <li>June 5 2021 - Supper Experience STL Ivory Orange</li>
-            <li>June 6 2021 - Tea Party STL Ivory Orange</li>
             <li>June 19 2021 - Cape Riverfront Farmer’s Market</li>
             <li>June 26 + 27 2021 - Honey Festival Ste Gen</li>
             <li>July 10 2021 - Rock n Roll Drive In Farmer’s Market</li>

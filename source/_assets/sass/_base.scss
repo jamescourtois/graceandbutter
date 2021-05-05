@@ -208,6 +208,14 @@ div.instagram_gallery > a.instagram-image {
             @apply bg-light-teal text-dark-teal;
         }
     }
+    &:nth-child(odd){
+        a:not(.btn) {
+            @apply text-white;
+            &:hover {
+                @apply text-light-teal;
+            }
+        }
+    }
     .image {
         @apply relative w-full;
         height: 300px;
