@@ -7,7 +7,7 @@
     class="h4" target="_blank">
         Ivory Orange
     </a>
-  <a href="/supper-sign-up" class="btn">Details & Registration</a>
+    <p>(Registration is Closed)</p>
     </div>
     <div class="image">
         <div class="bg-img">
@@ -25,27 +25,11 @@
     class="h4" target="_blank">
         Ivory Orange
     </a>
-  <a href="/tea-sign-up" class="btn">Details & Registration</a>
+    <p>(Registration is Closed)</p>
     </div>
     <div class="image">
         <div class="bg-img">
             <img src="/assets/img/teapot.jpg" alt="Tea Pot Photo">
-        </div>
-    </div>
-</div>
-<div class="row">
-    <div class="content">
-    <h2>Farmer's Market Pop Up!</h2>
-    <p class="h2">May 22, 2021 </p>
-    <p class="h4">Cape Riverfront Farmer’s Market</p>
-    <p class="h4">8 a.m. - 12 p.m.</p>
-    <a class="text-white hover:text-light-teal" href="https://www.google.com/maps/place/35+S+Spanish+St,+Cape+Girardeau,+MO+63703/data=!4m2!3m1!1s0x88778785c1025afb:0xbf21bb070915394b?sa=X&ved=2ahUKEwjT5dfu75nwAhWLW80KHUl4DDIQ8gEwAHoECAYQAQ">
-        35 S Spanish St, Cape Girardeau, MO 63703
-    </a>
-    </div>
-    <div class="image">
-        <div class="bg-img">
-            <img src="/assets/img/ccbread.jpg" alt="CC Bread Photo">
         </div>
     </div>
 </div>
@@ -59,7 +43,7 @@
             <li>July 10 2021 - Rock n Roll Drive In Farmer’s Market</li>
             <li>July 31 2021 - Cape Riverfront Farmer’s Market</li>
             <li>August 14 2021 - Rock n Roll Drive In Farmer’s Market</li>
-            <li>August 21 2021 - Annie Em’s</li>
+            <li>August 27 2021 - Annie Em’s</li>
             <li>August 28 2021 - Cape Riverfront Farmer’s Market</li>
             <li>September 18 2021 - Cape Riverfront Farmer’s Market</li>
             <li>October 9 2021 - Cape Riverfront Farmer’s Market</li>
