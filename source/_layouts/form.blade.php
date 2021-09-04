@@ -12,7 +12,7 @@
         </div>
         
         <div class="w-full lg:w-2/3 lg:pl-24">
-            <h3 class="text-white">Contact & Ordering Form</h3>
+            <h3 class="text-white">Contact Form</h3>
             <form id="contact" action="https://api.form-data.com/f/9xz2k54fdkmw20ecsf9ac" method="post" >
                 
             
