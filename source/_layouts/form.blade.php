@@ -5,8 +5,8 @@
     <div class="container flex flex-wrap mx-auto px-4">
         
         <div class="w-full lg:w-1/3">
-            <h2 class="text-white mb-8 text-4xl md:text-5xl">What food experience can I create for you?</h2>
-            <p class="text-white">Fill out this form and let me know in detail what food or dessert I can create for you! I will read everything over and get back to you within 24 hours.</p>
+            <h2 class="text-white mb-8 text-4xl md:text-5xl">Let's start a conversation.</h2>
+            <p class="text-white">Grace &amp; Butter is in a transitional phase and not currently accepting orders. That does not mean we can't have a great conversation about food and creating memorable culinary experiences. Feel free to reach out!</p>
             <p class="text-white">If you would rather email me, you can reach me at <a class="text-white underline hover:text-light-teal" href="mailto:graceandbutter@gmail.com">graceandbutter@gmail.com</a></p>
             <p class="text-white mb-16">If you would like to leave feedback about your recent order, please <a class="text-white underline hover:text-light-teal" href="/feedback">fill out my feedback form.</a></p>
         </div>
