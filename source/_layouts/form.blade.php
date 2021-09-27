@@ -6,13 +6,13 @@
         
         <div class="w-full lg:w-1/3">
             <h2 class="text-white mb-8 text-4xl md:text-5xl">Let's start a conversation.</h2>
-            <p class="text-white">Grace &amp; Butter is in a transitional phase and not currently accepting orders. That does not mean we can't have a great conversation about food and creating memorable culinary experiences. Feel free to reach out!</p>
+            <p class="text-white">Fill out this form to place an order request or just start a casual conversation. I am always happy to connect with people over food!</p>
             <p class="text-white">If you would rather email me, you can reach me at <a class="text-white underline hover:text-light-teal" href="mailto:graceandbutter@gmail.com">graceandbutter@gmail.com</a></p>
             <p class="text-white mb-16">If you would like to leave feedback about your recent order, please <a class="text-white underline hover:text-light-teal" href="/feedback">fill out my feedback form.</a></p>
         </div>
         
         <div class="w-full lg:w-2/3 lg:pl-24">
-            <h3 class="text-white">Contact Form</h3>
+            <h3 class="text-white">Contact &amp; Order Request Form</h3>
             <form id="contact" action="https://api.form-data.com/f/9xz2k54fdkmw20ecsf9ac" method="post" >
                 
             
