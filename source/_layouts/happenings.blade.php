@@ -1,15 +1,15 @@
-<div class="row">
+<div class="row" style="background-color: #482101;">
     <div class="content">
         <h2>Upcoming G&B Events</h2>
         <ul>          
-            <li>October 24 2021 - Tick Tock Bar Pop-up</li>
+            <li>October 23 2021 - Tick Tock Bar Pop-up</li>
             <li>December 12 2021 - Holiday Smarket at Ivory Orange</li>
             
         </ul>
     </div>
-    <div class="image">
-        <div class="bg-img">
-            <img src="/assets/img/cheesecake.png" alt="Muffin Photo">
+    <div class="image min-h-500 lg:min-h-75vh">
+        <div class="bg-img contain">
+            <img src="/assets/img/ticktock.jpg" alt="Tick Tock Tavern Event Info">
         </div>
     </div>
 </div>

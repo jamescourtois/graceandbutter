@@ -62,7 +62,8 @@ module.exports = {
         '90': '0.9',
       },
       minHeight: {
-        '500': '500px',
+        '500': '500px !important',
+        '75vh': '75vh !important',
       },
       boxShadow: {
         'lg': '0 -1px 27px 0 rgba(0, 0, 0, 0.04), 0 4px 15px 0 rgba(0, 0, 0, 0.08)',

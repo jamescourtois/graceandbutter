@@ -1015,6 +1015,12 @@ input[type=submit].teal:hover {
   width: 100%;
 }
 
+.bg-img.contain img,
+.bg-img > img.contain img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 div.instagram_gallery > a.instagram-image {
   width: 48% !important;
 }
@@ -1064,14 +1070,13 @@ div.instagram_gallery > a.instagram-image {
   position: relative;
   width: 100%;
   height: 300px;
-  min-height: 300px;
+  min-height: 500px;
 }
 
 @media (min-width: 1024px) {
   .row .image {
     height: auto;
     width: 50%;
-    min-height: 400px;
   }
 
   .row .content {
@@ -12183,7 +12188,7 @@ div.instagram_gallery > a.instagram-image {
 }
 
 .min-h-500{
-  min-height: 500px;
+  min-height: 500px !important;
 }
 
 .min-h-full{
@@ -12192,6 +12197,10 @@ div.instagram_gallery > a.instagram-image {
 
 .min-h-screen{
   min-height: 100vh;
+}
+
+.min-h-75vh{
+  min-height: 75vh !important;
 }
 
 .min-w-0{
@@ -32856,7 +32865,7 @@ div.instagram_gallery > a.instagram-image {
   }
 
   .sm\:min-h-500{
-    min-height: 500px;
+    min-height: 500px !important;
   }
 
   .sm\:min-h-full{
@@ -32865,6 +32874,10 @@ div.instagram_gallery > a.instagram-image {
 
   .sm\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .sm\:min-h-75vh{
+    min-height: 75vh !important;
   }
 
   .sm\:min-w-0{
@@ -53456,7 +53469,7 @@ div.instagram_gallery > a.instagram-image {
   }
 
   .md\:min-h-500{
-    min-height: 500px;
+    min-height: 500px !important;
   }
 
   .md\:min-h-full{
@@ -53465,6 +53478,10 @@ div.instagram_gallery > a.instagram-image {
 
   .md\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .md\:min-h-75vh{
+    min-height: 75vh !important;
   }
 
   .md\:min-w-0{
@@ -74056,7 +74073,7 @@ div.instagram_gallery > a.instagram-image {
   }
 
   .lg\:min-h-500{
-    min-height: 500px;
+    min-height: 500px !important;
   }
 
   .lg\:min-h-full{
@@ -74065,6 +74082,10 @@ div.instagram_gallery > a.instagram-image {
 
   .lg\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .lg\:min-h-75vh{
+    min-height: 75vh !important;
   }
 
   .lg\:min-w-0{
@@ -94656,7 +94677,7 @@ div.instagram_gallery > a.instagram-image {
   }
 
   .xl\:min-h-500{
-    min-height: 500px;
+    min-height: 500px !important;
   }
 
   .xl\:min-h-full{
@@ -94665,6 +94686,10 @@ div.instagram_gallery > a.instagram-image {
 
   .xl\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .xl\:min-h-75vh{
+    min-height: 75vh !important;
   }
 
   .xl\:min-w-0{

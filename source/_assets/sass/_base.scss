@@ -186,6 +186,10 @@ input[type=submit] {
         object-position: center bottom;
         width: 100%;
     }
+
+    &.contain img {
+        object-fit: contain;
+    }
 }
 
 div.instagram_gallery > a.instagram-image {
@@ -209,12 +213,11 @@ div.instagram_gallery > a.instagram-image {
     .image {
         @apply relative w-full;
         height: 300px;
-        min-height: 300px;
+        min-height: 500px;
     }
     @screen lg {
         .image {
             @apply h-auto w-1/2;
-            min-height: 400px;
         }
         .content {
             @apply w-1/2;
