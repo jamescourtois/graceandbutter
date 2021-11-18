@@ -943,6 +943,7 @@ a.btn,
 input[type=submit] {
   display: inline-flex;
   text-decoration: none;
+  text-align: center;
   align-items: center;
   justify-content: center;
   padding: 1rem;
@@ -1021,6 +1022,12 @@ input[type=submit].teal:hover {
      object-fit: contain;
 }
 
+.bg-img.center-top > img,
+.bg-img > img.center-top > img {
+  -o-object-position: center top;
+     object-position: center top;
+}
+
 div.instagram_gallery > a.instagram-image {
   width: 48% !important;
 }
@@ -1043,6 +1050,8 @@ div.instagram_gallery > a.instagram-image {
   align-items: stretch;
   justify-content: center;
   font-weight: 600;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .row .content {

@@ -161,7 +161,7 @@ pre {
 .btn,
 a.btn,
 input[type=submit] {
-    @apply inline-flex no-underline items-center justify-center p-4 bg-white text-dark-teal cursor-pointer font-bold;
+    @apply inline-flex no-underline text-center items-center justify-center p-4 bg-white text-dark-teal cursor-pointer font-bold;
     transition: 300ms ease;
 
     &:hover {
@@ -190,6 +190,10 @@ input[type=submit] {
     &.contain img {
         object-fit: contain;
     }
+
+    &.center-top > img {
+        object-position: center top;
+    }
 }
 
 div.instagram_gallery > a.instagram-image {
@@ -203,7 +207,7 @@ div.instagram_gallery > a.instagram-image {
 }
 
 .row {
-    @apply flex flex-wrap items-stretch justify-center font-semibold;
+    @apply flex flex-wrap items-stretch justify-center font-semibold py-4;
     .content{
         @apply w-full flex flex-col items-center justify-center p-16 text-dark-teal bg-light-teal;
     }
