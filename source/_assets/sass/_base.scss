@@ -207,7 +207,7 @@ div.instagram_gallery > a.instagram-image {
 }
 
 .row {
-    @apply flex flex-wrap items-stretch justify-center font-semibold py-4;
+    @apply flex flex-wrap items-stretch justify-center font-semibold;
     .content{
         @apply w-full flex flex-col items-center justify-center p-16 text-dark-teal bg-light-teal;
     }

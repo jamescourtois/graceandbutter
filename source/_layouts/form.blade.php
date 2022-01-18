@@ -19,7 +19,7 @@
                 <div class="flex flex-wrap mb-6 -mx-3">
                     <div class="w-full lg:w-1/2 mb-6 lg:mb-0 px-3">
                         <label class="block mb-2 text-sm font-semibold text-white" for="name">
-                            Name
+                            Name*
                         </label>
             
                         <input
@@ -34,7 +34,7 @@
             
                     <div class="w-full px-3 lg:w-1/2">
                         <label class="block text-sm font-semibold mb-2 text-white" for="email">
-                            Email Address
+                            Email Address*
                         </label>
             
                         <input
@@ -49,8 +49,8 @@
                 </div>
             
                 <div class="w-full mb-12">
-                    <label class="block text-sm font-semibold mb-2 text-white" for=-message">
-                        Message
+                    <label class="block text-sm font-semibold mb-2 text-white" for="message">
+                        Details*
                     </label>
             
                     <textarea
@@ -58,9 +58,41 @@
                         rows="4"
                         name="message"
                         class="block w-full border shadow rounded-lg outline-none appearance-none mb-2 px-4 py-3"
-                        placeholder="What food or dessert are you interested in?"
+                        placeholder="What can I do for you?"
                         required
                     ></textarea>
+                </div>
+
+                <div class="w-1/2 float-left mb-12">
+                    <label class="block text-sm font-semibold mb-2 text-white" for="date">
+                        When do you need this?
+                    </label>
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                        class="border shadow rounded-lg outline-none mb-2 px-4 py-3"
+                        >
+                </div>
+                <div class="w-1/2 float-left mb-12">
+                    <div class="text-sm font-semibold mb-2 text-white">Pickup or Delivery?</div>
+                    <input
+                    type="radio"
+                    id="delivery"
+                    name="pickup_or_delivery"
+                    value="delivery">
+                    <label class="text-sm font-semibold mb-2 text-white" for="delivery">
+                        Delivery ($20 fee applies)
+                    </label>
+                    <br />
+                    <input
+                    type="radio"
+                    id="pickup"
+                    name="pickup_or_delivery"
+                    value="pickup">
+                    <label class="text-sm font-semibold mb-2 text-white" for="pickup">
+                        Pick up
+                    </label>
                 </div>
 
                 <input type="text" name="xx_password" class="sr-only" tabindex="-1" autocomplete="off">
