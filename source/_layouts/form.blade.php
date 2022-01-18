@@ -63,18 +63,18 @@
                     ></textarea>
                 </div>
 
-                <div class="w-1/2 float-left mb-12">
-                    <label class="block text-sm font-semibold mb-2 text-white" for="date">
+                <div class="w-full lg:w-1/2 float-left mb-12">
+                    <label class="block text-sm font-semibold mb-2 text-white" for="need_by_date">
                         When do you need this?
                     </label>
                     <input
-                        type="date"
-                        id="date"
-                        name="date"
+                        type="need_by_date"
+                        id="need_by_date"
+                        name="need_by_date"
                         class="border shadow rounded-lg outline-none mb-2 px-4 py-3"
                         >
                 </div>
-                <div class="w-1/2 float-left mb-12">
+                <div class="w-full lg:w-1/2 float-left mb-12">
                     <div class="text-sm font-semibold mb-2 text-white">Pickup or Delivery?</div>
                     <input
                     type="radio"
