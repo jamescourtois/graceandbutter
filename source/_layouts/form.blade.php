@@ -68,7 +68,7 @@
                         When do you need this?
                     </label>
                     <input
-                        type="need_by_date"
+                        type="date"
                         id="need_by_date"
                         name="need_by_date"
                         class="border shadow rounded-lg outline-none mb-2 px-4 py-3"
