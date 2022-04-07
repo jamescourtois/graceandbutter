@@ -8,9 +8,9 @@
                 <li>Coconut Cream Pie w/ Meringue ($35)</li>
                 <li>Apfelkuchen German Apple Cake ($25)</li>
             </ul>
-            <img src="/assets/img/candle.png" style="border:2px solid white;margin: 0 0 1rem 0;width:250px;height:auto;max-width:100%;" alt="">
+            <img src="/assets/img/candle1.png" style="border:2px solid white;margin: 0 0 1rem 0;width:250px;height:auto;max-width:100%;" alt="">
             <h3 class="m-0">Add a "Night In" 4 oz candle from for.candles!</h3>
-            <div class="mb-2">(Only $10 each)</div>
+            <div class="mb-2">(Only $10 each! Check out <a href="https://www.instagram.com/for.candles/">for.candles on instagram</a>)</div>
             <a class="btn order" href="#contact">Submit Order Request</a>
         </div>
     
