@@ -9,7 +9,23 @@
         gtag('js', new Date());
         gtag('config', 'G-KBG5ZT6CSN');
         </script>
-
+        <script src="https://www.google.com/recaptcha/api.js"
+        async defer></script>
+        <script>
+            function onloadCallback() {
+                /* Place your recaptcha rendering code here */
+                var form = document.getElementById('cookieform');
+        
+                form.addEventListener("submit", function (event) {
+                    if (grecaptcha.getResponse() === '') {
+                        event.preventDefault();
+                        alert('Please check the recaptcha box and try submitting again.');
+                    }
+                }, false);
+            }
+        </script>
+        
+        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -45,19 +61,10 @@
                     </a>
                     <a class="no-underline hover:no-underline" href="/"><h1 class="text-red inline-flex items-center justify-start text-3xl leading-tight lg:text-5xl m-0 p-0 pl-4">Food Experiences <br class="lg:hidden"/>by Mandi Lee</h1></a>
                     
-                
-
-                {{-- <div id="vue-search" class="flex flex-1 justify-end items-center">
-                    
-
-                    @include('_nav.menu')
-
-                    {{-- @include('_nav.menu-toggle') --}}
-                {{-- </div> --}}
            
         </header>
 
-        {{-- @include('_nav.menu-responsive') --}}
+        
 
         <main role="main" class="flex-auto relative z-10">
             @yield('body')

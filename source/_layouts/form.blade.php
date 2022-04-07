@@ -12,10 +12,16 @@
         </div>
         
         <div class="w-full lg:w-2/3 lg:pl-24">
+            
             <h3 class="text-white">Contact &amp; Order Request Form</h3>
+            
+            <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback"></script>
+
             <form id="contact" action="https://api.form-data.com/f/9xz2k54fdkmw20ecsf9ac" method="post" >
                 
-            
+                <div>
+                    <h3 class="text-sm uppercase text-light-teal">Required info</h3>
+                </div>
                 <div class="flex flex-wrap mb-6 -mx-3">
                     <div class="w-full lg:w-1/2 mb-6 lg:mb-0 px-3">
                         <label class="block mb-2 text-sm font-semibold text-white" for="name">
@@ -63,6 +69,10 @@
                     ></textarea>
                 </div>
 
+                <div>
+                    <h3 class="text-sm uppercase text-light-teal">Optional Info</h3>
+                </div>
+
                 <div class="w-full lg:w-1/2 float-left mb-12">
                     <label class="block text-sm font-semibold mb-2 text-white" for="need_by_date">
                         When do you need this?
@@ -71,6 +81,7 @@
                         type="date"
                         id="need_by_date"
                         name="need_by_date"
+                        placeholder="mm/dd/yyyy"
                         class="border shadow rounded-lg outline-none mb-2 px-4 py-3"
                         >
                 </div>
@@ -96,13 +107,11 @@
                 </div>
 
                 <input type="text" name="xx_password" class="sr-only" tabindex="-1" autocomplete="off">
-            
-            
-                <div class="flex justify-start w-full">
+
                     <input
                         type="submit"
                         value="Submit"
-                        class="btn"
+                        class="btn w-full sm:w-auto"
                     >
                 </div>
             </form>
