@@ -2,15 +2,15 @@
 
 <div class="row">
     <div class="content text-center">
-        <h2>Cookie Subscription Box</h2>
+        <h2>Cookie Box of the Month!</h2>
         <ul class="text-left pl-4">
-            <li>1 dozen cookies shipped on the 15th of each month</li>
-            <li>$20 plus shipping</li>
+            <li>Cookies by the dozen shipped on the 15th of each month</li>
+            <li>$20/dozen plus shipping</li>
             <li>Free pick up in the STL area</li>
             <li>No commitments, just fun flavors!</li>
             <li>Order deadline is the 10th of each month</li>
         </ul>
-        <a class="btn order" href="/order-cookie-box">Subscribtion Form</a>
+        <a class="btn order" href="/order-cookie-box">Cookie Box Form</a>
     </div>
     <div class="image">
         <div class="bg-img">
