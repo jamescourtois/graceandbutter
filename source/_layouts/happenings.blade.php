@@ -1,51 +1,45 @@
 
-    <div class="row">
-        <div class="content text-center">
-            <h2>Mother's Day Menu</h2>
-            <ul class="text-left pl-4">
-                <li>Cheesecake ($35)</li>
-                <li>Dozen Salted Chocolate Chip Cookies ($15)</li>
-                <li>Coconut Cream Pie w/ Meringue ($35)</li>
-                <li>Apfelkuchen German Apple Cake ($25)</li>
-            </ul>
-            <img src="/assets/img/candle1.png" style="border:2px solid white;margin: 0 0 1rem 0;width:250px;height:auto;max-width:100%;" alt="">
-            <h3 class="m-0">Add a "Night In" 4 oz candle from for.candles!</h3>
-            <div class="mb-2">(Only $10 each! Check out <a href="https://www.instagram.com/for.candles/">for.candles on instagram</a>)</div>
-            <a class="btn order" href="#contact">Submit Order Request</a>
+
+<div class="row">
+    <div class="content text-center">
+        <h2>Cookie Subscription Box</h2>
+        <ul class="text-left pl-4">
+            <li>1 dozen cookies shipped on the 15th of each month</li>
+            <li>$20 plus shipping</li>
+            <li>Free pick up in the STL area</li>
+            <li>No commitments, just fun flavors!</li>
+            <li>Order deadline is the 10th of each month</li>
+        </ul>
+        <a class="btn order" href="/order-cookie-box">Subscribtion Form</a>
+    </div>
+    <div class="image">
+        <div class="bg-img">
+            <img src="/assets/img/mandi-with-cookies.jpg" alt="Apple Pie Photo">
         </div>
-    
-        <div class="image">
-            <div class="bg-img">
-                <img style="object-position: center bottom;" src="/assets/img/1.jpg" alt="Apple Pie Photo">
-            </div>
-        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="content text-center">
+        <h2>Shipping Menu</h2>
+        <ul class="text-left pl-4">
+            <li>Cookies </li>
+            <li>Brownies (Gluten-free and Vegan options)</li>
+            <li>Apfelkucken (German apple cake)</li>
+            <li>Candied Pecans</li>
+            <li>Cereal</li>
+        </ul>
+        <h3>Custom orders &amp; <br />special requests welcome!</h3>
+        <a class="btn order" href="#contact">Submit Order Request</a>
     </div>
 
-    <div class="row">
-        <div class="content text-center">
-            <h2>Classics Menu</h2>
-            <ul class="text-left pl-4">
-                <li>Cupcakes</li>
-                <li>Brownies</li>
-                <li>Cakes</li>
-                <li>Cookies</li>
-                <li>Pies</li>
-                <li>Cheesecakes</li>
-                <li>Lasagna </li>
-                <li>Candied Pecans</li>
-                <li>Chili and Cornbread </li>
-                <li>Charcuterie Displays</li>
-            </ul>
-            <h3>Custom orders &amp; <br />special requests welcome!</h3>
-            <a class="btn order" href="#contact">Submit Order Request</a>
-        </div>
-    
-        <div class="image">
-            <div class="bg-img">
-                <img src="/assets/img/applepie.jpg" alt="Apple Pie Photo">
-            </div>
+    <div class="image">
+        <div class="bg-img">
+            <img src="/assets/img/applepie.jpg" alt="Apple Pie Photo">
         </div>
     </div>
+</div>
 
 
 <div class="bg-dark-teal text-white">
