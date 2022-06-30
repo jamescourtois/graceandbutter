@@ -9,23 +9,6 @@
         gtag('js', new Date());
         gtag('config', 'G-KBG5ZT6CSN');
         </script>
-        <script src="https://www.google.com/recaptcha/api.js"
-        async defer></script>
-        <script>
-            function onloadCallback() {
-                /* Place your recaptcha rendering code here */
-                var form = document.getElementById('cookieform');
-        
-                form.addEventListener("submit", function (event) {
-                    if (grecaptcha.getResponse() === '') {
-                        event.preventDefault();
-                        alert('Please check the recaptcha box and try submitting again.');
-                    }
-                }, false);
-            }
-        </script>
-        
-        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">

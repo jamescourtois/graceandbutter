@@ -23,9 +23,6 @@
         <div class="container mx-auto text-center">
             <h2 class="text-red text-xl md:text-2xl">Follow Grace & Butter on Instagram!</h2>
             <a href="https://instagram.com/graceandbutter" target="_blank" class="btn teal">@graceandbutter instagram page</a>
-
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-            <div class="elfsight-app-0f84ffec-591b-4a72-95c3-17ab5fd0170a"></div>
         </div>
       
     </div>

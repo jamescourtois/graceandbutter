@@ -14,8 +14,6 @@
         <div class="w-full lg:w-2/3 lg:pl-24">
             
             <h3 class="text-white">Contact &amp; Order Request Form</h3>
-            
-            <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback"></script>
 
             <form id="contact" action="https://api.form-data.com/f/9xz2k54fdkmw20ecsf9ac" method="post" >
                 

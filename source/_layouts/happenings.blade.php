@@ -5,10 +5,10 @@
         <h2>Cookie Box of the Month!</h2>
         <ul class="text-left pl-4">
             <li>Cookies by the dozen shipped on the 15th of each month</li>
-            <li>$20/dozen plus shipping</li>
+            <li>$30/dozen plus shipping</li>
             <li>Free pick up in the STL area</li>
             <li>No commitments, just fun flavors!</li>
-            <li>Order deadline is the 10th of each month</li>
+            <li>Order deadline is the 5th of each month</li>
         </ul>
         <a class="btn order" href="/order-cookie-box">Cookie Box Form</a>
     </div>
@@ -30,7 +30,7 @@
             <li>Candied Pecans</li>
             <li>Cereal</li>
         </ul>
-        <h3>Custom orders &amp; <br />special requests welcome!</h3>
+        {{-- <h3>Custom orders &amp; <br />special requests welcome!</h3> --}}
         <a class="btn order" href="#contact">Submit Order Request</a>
     </div>
 

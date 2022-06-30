@@ -9,10 +9,10 @@
           <p class="text-white">Fill out this form and I will be in touch to sort out the payment and delivery details. Thank you!</p>
           <ul class="text-left pl-4 text-white">
             <li>Cookies by the dozen shipped on the 15th of each month</li>
-            <li>$20 plus shipping</li>
+            <li>$30/dozen plus shipping</li>
             <li>Free pick up in the STL area</li>
             <li>No commitments, just fun flavors!</li>
-            <li>Order deadline is the 10th of each month</li>
+            <li>Order deadline is the 5th of each month</li>
         </ul>
         <div class="mb-16">
             <img src="/assets/img/mandi-with-cookies.jpg" alt="Apple Pie Photo">
@@ -58,12 +58,14 @@
 
               <div class="w-full float-left mb-6">
                 <div class="text-sm font-semibold mb-2 text-white">Pick it up, or ship it?*</div>
+                
                 <input
                 type="radio"
                 id="delivery"
                 required
                 name="pickup_or_ship"
-                value="ship">
+                value="ship"
+                onclick="address.toggle()">
                 <label class="text-sm font-semibold mb-2 text-white" for="delivery">
                     Ship my order (Shipping fee applies)
                 </label>
@@ -73,10 +75,27 @@
                 id="pickup"
                 required
                 name="pickup_or_ship"
-                value="pickup">
+                value="pickup"
+                onclick="address.toggle()">
                 <label class="text-sm font-semibold mb-2 text-white" for="pickup">
                     I'll pick it up
                 </label>
+
+            </div>
+
+            <div class="w-full float-left mb-6 hidden" id="address-wrap">
+                <label class="block text-sm font-semibold mb-2 text-white" for="ship_address">
+                    Shipping Address?*
+                </label>
+                <div class="text-sm font-semibold mb-2 text-white"></div>
+                <textarea
+                    id="ship_address"
+                    rows="4"
+                    required
+                    name="ship_address"
+                    class="block w-full border shadow rounded-lg outline-none appearance-none mb-2 px-4 py-3"
+                    placeholder="Write your full address here."
+                ></textarea>
             </div>
 
             <div class="w-full float-left mb-6">
@@ -132,7 +151,7 @@
               <div class="flex justify-start w-full">
                   <input
                       type="submit"
-                      value="Subscribe"
+                      value="Sign Up"
                       class="btn"
                   >
               </div>
@@ -140,4 +159,19 @@
       </div>
   </div>
 </div>
+@push('scripts')
+<script>
+    const address = {
+        toggle() {
+            const delivery = document.getElementById('delivery');
+            
+            if (delivery.checked) {
+                document.getElementById('address-wrap').classList.remove('hidden');
+            }else{
+                document.getElementById('address-wrap').classList.add('hidden');
+            }
+        },
+    }
+</script>
+@endpush
 
