@@ -19,29 +19,6 @@
     </div>
 </div>
 
-
-<div class="row">
-    <div class="content text-center">
-        <h2>Shipping Menu</h2>
-        <ul class="text-left pl-4">
-            <li>Cookies </li>
-            <li>Brownies (Gluten-free and Vegan options)</li>
-            <li>Apfelkucken (German apple cake)</li>
-            <li>Candied Pecans</li>
-            <li>Cereal</li>
-        </ul>
-        {{-- <h3>Custom orders &amp; <br />special requests welcome!</h3> --}}
-        <a class="btn order" href="#contact">Submit Order Request</a>
-    </div>
-
-    <div class="image">
-        <div class="bg-img">
-            <img src="/assets/img/applepie.jpg" alt="Apple Pie Photo">
-        </div>
-    </div>
-</div>
-
-
 <div class="bg-dark-teal text-white">
     <div class="container py-8 text-center px-8 mx-auto flex flex-col lg:flex-row items-center justify-center">
         <p class="mb-6 lg:mb-0">Did you recently order from Grace & Butter? Tell me what you think!</p>

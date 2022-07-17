@@ -91,7 +91,6 @@
                 <textarea
                     id="ship_address"
                     rows="4"
-                    required
                     name="ship_address"
                     class="block w-full border shadow rounded-lg outline-none appearance-none mb-2 px-4 py-3"
                     placeholder="Write your full address here."
@@ -167,8 +166,10 @@
             
             if (delivery.checked) {
                 document.getElementById('address-wrap').classList.remove('hidden');
+                document.getElementById('ship_address').required = true;
             }else{
                 document.getElementById('address-wrap').classList.add('hidden');
+                document.getElementById('ship_address').required = false;
             }
         },
     }
