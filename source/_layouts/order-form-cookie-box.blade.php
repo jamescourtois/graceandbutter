@@ -9,7 +9,7 @@
           <p class="text-white">Fill out this form and I will be in touch to sort out the payment and delivery details. Thank you!</p>
           <ul class="text-left pl-4 text-white">
             <li>Cookies by the dozen shipped on the 15th of each month</li>
-            <li>$30/dozen plus shipping</li>
+            <li>$25 per dozen local pick up / $35 per dozen shipped</li>
             <li>Free pick up in the STL area</li>
             <li>No commitments, just fun flavors!</li>
             <li>Order deadline is the 5th of each month</li>
