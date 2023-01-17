@@ -15,7 +15,7 @@
             <li>Order deadline is the 5th of each month</li>
         </ul>
         <div class="mb-16">
-            <img src="/assets/img/november_cookie.png" alt="November Cookie Box">
+            <img src="/assets/img/germanchocolate.jpg" alt="February Cookie Box">
         </div>
       </div>
       
