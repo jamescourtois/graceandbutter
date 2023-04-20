@@ -216,8 +216,6 @@ div.instagram_gallery > a.instagram-image {
     }
     .image {
         @apply relative w-full;
-        height: 300px;
-        min-height: 500px;
     }
     @screen lg {
         .image {

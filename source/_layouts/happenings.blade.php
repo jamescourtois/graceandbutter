@@ -1,6 +1,6 @@
 
 
-<div class="row max-w-5xl py-8 mx-auto">
+<div class="row max-w-5xl pt-8 lg:py-8 mx-auto">
     <div class="content text-center">
         <h2>Cookie Box of the Month!</h2>
         <ul class="text-left pl-4">
@@ -12,9 +12,9 @@
         <a class="btn order" href="/order-cookie-box">Cookie Box Form</a>
     </div>
     <div class="image">
-        <div class="bg-img contain">
+        
             <a href="/order-cookie-box"><img src="/assets/img/april23.jpg" alt="April Cookie Box"></a>
-        </div>
+        
     </div>
 </div>
 
