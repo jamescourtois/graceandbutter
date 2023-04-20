@@ -13,7 +13,7 @@
     </div>
     <div class="image">
         <div class="bg-img contain">
-            <a href="/order-cookie-box"><img src="/assets/img/germanchocolate.jpg" alt="February Cookie Box"></a>
+            <a href="/order-cookie-box"><img src="/assets/img/april23.jpg" alt="April Cookie Box"></a>
         </div>
     </div>
 </div>
