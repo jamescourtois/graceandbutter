@@ -1,8 +1,26 @@
 @extends('_layouts.master')
 
 @section('body')
+<div class="bg-light-teal py-16 px-4 shadow-lg relative z-40">
+    <div class="container mx-auto flex items-center justify-center flex-wrap" style="max-width:900px;">
+        <div class="w-full md:w-1/3 text-center">
+            <img src="/assets/img/mandi.jpg" alt="Portrait of Mandi Lee of Grace & Butter" style="height:240px;width:auto;object-fit:cover;margin:auto;">
+        </div>
+        <div class="w-full md:w-2/3">
+            <br style="" />
+            <h2 class="md:text-5xl text-red">Hi! I'm Mandi.</h2>
+            {{-- <p>Everyone had a birthday, anniversary, or another milestone since COVID started. Some get creative and celebrate in safe ways. Others are forced to skip all hooplah, sometimes cancelling plans that have been in place for years. All moments we are present with the ones we love deserve to be celebrated.</p> --}}
     
-   @include('_layouts.happenings')
+            <p>Food is such an important way we share moments and connect with each other. The two most common ingredients I use are grace and butter. I love crafting food with simple elegance and rich flavor. However, the heart of Grace &amp; Butter lies in providing not just food but all the details to make a meal or dessert unforgettable.</p>
+            
+            <a class="btn teal" href="#form">Start a conversation</a>
+            <!--<p>I want to help you plan your engagement. I want to pack a picnic for you. I want to provide a dessert bar for your wedding. I want to make your family a lasagna. I want to teach you how to make scones. The possibilities are endless and we can navigate Covid-19 restrictions together.</p> -->
+        </div>
+
+        
+    </div>
+</div>
+  
     <div class="bg-white py-8 relative z-30 shadow-lg">
         <div class="container mx-auto text-center mb-8">
             <h2 class="text-red text-xl md:text-2xl">Follow Grace & Butter on the 'Gram!</h2>
@@ -106,24 +124,6 @@
             <script async src="//www.instagram.com/embed.js"></script>
         </div>
       
-    </div>
-    <div class="bg-light-teal py-16 px-4 shadow-lg relative z-40">
-        <div class="container mx-auto flex items-center flex-wrap">
-            <div class="w-full">
-                <img src="/assets/img/mandi.jpg" alt="Portrait of Mandi Lee of Grace & Butter" class="mr-4 md:mr-16 mb-2 md:mb-8 float-left" style="height:250px;width:auto;object-fit:cover;">
-                <h2 class="md:text-5xl text-red">Hi! I'm Mandi.</h2>
-                {{-- <p>Everyone had a birthday, anniversary, or another milestone since COVID started. Some get creative and celebrate in safe ways. Others are forced to skip all hooplah, sometimes cancelling plans that have been in place for years. All moments we are present with the ones we love deserve to be celebrated.</p> --}}
-        
-                <p>I love making food for people. It is my love language. It feels like destiny, like ultimate fulfillment. Even when I sit down to eat by myself, I set the table and plate my food. The ambiance is as important as the food itself.</p>
-                
-                <p>The heart of Grace &amp; Butter lies in providing all the details that make an event unforgettable. Irresistable food is critical, but it goes beyond just the menu. That is where G&amp;B shines.</p>
-                <!--<p>I want to help you plan your engagement. I want to pack a picnic for you. I want to provide a dessert bar for your wedding. I want to make your family a lasagna. I want to teach you how to make scones. The possibilities are endless and we can navigate Covid-19 restrictions together.</p> -->
-            </div>
-    
-            
-        </div>
-    </div>
-
-   
+    </div>  
     
 @stop
