@@ -2,18 +2,18 @@
 
 <div class="row max-w-5xl pt-8 lg:py-8 mx-auto">
     <div class="content text-center">
-        <h2>Cookie Box of the Month!</h2>
+        <h2>Pumpkin Bread!</h2>
         <ul class="text-left pl-4">
-            <li>Cookies by the dozen shipped on the 15th of each month</li>
-            <li>$25 per dozen local pick up / $35 per dozen shipped</li>
-            <li>No commitments, just fun flavors!</li>
-            <li>Order deadline is the 5th of each month</li>
+            <li>$15 per delicious loaf</li>
+            <li>The 9"x13" size is perfect for sharing!</li>
+            <li>Topped with tasty pepitas (optional)</li>
+            <li>Pick up at Annie Em's at Home in Cape Girardeau</li>
         </ul>
-        <a class="btn order" href="/order-cookie-box">Cookie Box Form</a>
+        <a class="btn order" href="#form">Order</a>
     </div>
     <div class="image">
         
-            <a href="/order-cookie-box"><img src="/assets/img/april23.jpg" alt="April Cookie Box"></a>
+            <a href="#form"><img src="/assets/img/pumpkin-bread.png" alt="pumpkin bread"></a>
         
     </div>
 </div>

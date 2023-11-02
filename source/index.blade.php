@@ -1,6 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
+@include('_layouts.happenings')
 <div class="bg-light-teal py-16 px-4 shadow-lg relative z-40">
     <div class="container mx-auto flex items-center justify-center flex-wrap" style="max-width:900px;">
         <div class="w-full md:w-1/3 text-center">
