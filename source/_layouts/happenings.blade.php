@@ -3,7 +3,7 @@
 	
 	<div class="row max-w-5xl pt-8 lg:py-8 mx-auto">
 		<div class="content dark">
-			<h2 class="text-light-teal">Christmas Menu 2023</h2>
+			<h2>Christmas Menu 2023</h2>
 			<p>Mark your calendars for December 23. It will be GB’s last pop-up of the year! Peep that menu. This will be a sell out situation so PRE-ORDER!</p>
 	
 			<p>And yes, all these items are shippable!</p>
